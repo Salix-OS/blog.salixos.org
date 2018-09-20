@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MATE on The Salix Blog</title>
-    <link>https://blog.salixos.org/tags/mate/</link>
+    <link>https://salix-os.github.io/blog.salixos.org/tags/mate/</link>
     <description>Recent content in MATE on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.salixos.org/tags/mate/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://salix-os.github.io/blog.salixos.org/tags/mate/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MATE is around the corner</title>
-      <link>https://blog.salixos.org/post/mate-is-around-the-corner/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/mate-is-around-the-corner/</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/mate-is-around-the-corner/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/mate-is-around-the-corner/</guid>
       <description>MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&amp;rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&amp;rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14.</description>
     </item>
     

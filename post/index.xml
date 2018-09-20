@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The Salix Blog</title>
-    <link>https://blog.salixos.org/post/</link>
+    <link>https://salix-os.github.io/blog.salixos.org/post/</link>
     <description>Recent content in Posts on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 09 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.salixos.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://salix-os.github.io/blog.salixos.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Our new extra repository</title>
-      <link>https://blog.salixos.org/post/our-new-extra-repository/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/our-new-extra-repository/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/our-new-extra-repository/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/our-new-extra-repository/</guid>
       <description>You might have noticed that just before the Salix Xfce 14.2RC1 release a new repository, named extra-14.2 has appeared in our servers. This has been enabled by default in the 14.2RC1 and 14.2RC2 releases and will be also available in the final 14.2 release.
 This new repository is present for both i486 and x86_64 architectures and its purpose it to include packages built from SlackBuilds found at slackbuilds.org. At this moment, it&amp;rsquo;s not that full, only about 20 packages are included in it.</description>
     </item>
     
     <item>
       <title>Our SBo mirrors</title>
-      <link>https://blog.salixos.org/post/our-sbo-mirrors/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/our-sbo-mirrors/</link>
       <pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/our-sbo-mirrors/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/our-sbo-mirrors/</guid>
       <description>We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
 First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&amp;rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&amp;rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far.</description>
     </item>
     
     <item>
       <title>MATE is around the corner</title>
-      <link>https://blog.salixos.org/post/mate-is-around-the-corner/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/mate-is-around-the-corner/</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/mate-is-around-the-corner/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/mate-is-around-the-corner/</guid>
       <description>MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&amp;rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&amp;rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14.</description>
     </item>
     
     <item>
       <title>New Startup Guide</title>
-      <link>https://blog.salixos.org/post/new-startup-guide/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/new-startup-guide/</link>
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/new-startup-guide/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/new-startup-guide/</guid>
       <description>We&amp;rsquo;ve been working on this for a while and were hoping to have it ready by the time 14.1 is released and it seems that we managed to make it! You can now find the new guide linked from our main website.
 The startup guide was left with no updates since the 13.37 release, so it was getting a bit old. It was still mostly OK, but there were things that were out of date.</description>
     </item>
     
     <item>
       <title>Kernel decisions</title>
-      <link>https://blog.salixos.org/post/kernel-decisions/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/kernel-decisions/</link>
       <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/kernel-decisions/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/kernel-decisions/</guid>
       <description>I&amp;rsquo;ve had a few chats lately, either through email, in our forums and in IRC about the kernels that we&amp;rsquo;re including with our 32-bit releases and I thought it would be best if I explained things a bit.
 First of all, 32-bit Slackware ships with two different kernels. The first one, which is the most used of the two is an i686 optimized, PAE enabled, SMP capable kernel. The second one is an i486 optimized, non-PAE, non-SMP capable kernel.</description>
     </item>
     
     <item>
       <title>The gksu problem</title>
-      <link>https://blog.salixos.org/post/the-gksu-problem/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/the-gksu-problem/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/the-gksu-problem/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/the-gksu-problem/</guid>
       <description>We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&amp;rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&amp;rsquo;t fix it, almost nothing in the System part of the menu would actually work.</description>
     </item>
     
     <item>
       <title>How much of Slackware is in Salix</title>
-      <link>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</link>
       <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</guid>
       <description>That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
 There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix.</description>
     </item>
     
     <item>
       <title>New Website Design</title>
-      <link>https://blog.salixos.org/post/new-website-design/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/new-website-design/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/new-website-design/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/new-website-design/</guid>
       <description>As many might have noticed, we now have a new main website design!
 Since the Salix project was started, the main website was actually a part of our wiki, which is using the MediaWiki engine. That had one main advantage, which at that time seemed enough to justify that choice; we would use a single CMS to manage both our wiki and our main page. So, we created a custom MediaWiki theme that would look good as a main project page and as a wiki.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slackware on The Salix Blog</title>
-    <link>https://blog.salixos.org/tags/slackware/</link>
+    <link>https://salix-os.github.io/blog.salixos.org/tags/slackware/</link>
     <description>Recent content in Slackware on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 30 Oct 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.salixos.org/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://salix-os.github.io/blog.salixos.org/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How much of Slackware is in Salix</title>
-      <link>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</link>
+      <link>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</link>
       <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</guid>
+      <guid>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</guid>
       <description>That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
 There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix.</description>
     </item>
