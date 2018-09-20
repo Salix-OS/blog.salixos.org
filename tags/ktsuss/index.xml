@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ktsuss on The Salix Blog</title>
+    <link>https://blog.salixos.org/tags/ktsuss/</link>
+    <description>Recent content in Ktsuss on The Salix Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.salixos.org/tags/ktsuss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The gksu problem</title>
+      <link>https://blog.salixos.org/post/the-gksu-problem/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/the-gksu-problem/</guid>
+      <description>We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&amp;rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&amp;rsquo;t fix it, almost nothing in the System part of the menu would actually work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>How much of Slackware is in Salix - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" />
+  <meta name="description" content="That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
+There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix." />
+
+  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.48" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="How much of Slackware is in Salix" />
+<meta property="og:description" content="That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
+There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/" /><meta property="article:published_time" content="2013-10-30T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2013-10-30T00:00:00&#43;00:00"/>
+<meta itemprop="name" content="How much of Slackware is in Salix">
+<meta itemprop="description" content="That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
+There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix.">
+
+
+<meta itemprop="datePublished" content="2013-10-30T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2013-10-30T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1143">
+
+
+
+<meta itemprop="keywords" content="packages,repositories,slackware," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How much of Slackware is in Salix"/>
+<meta name="twitter:description" content="That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
+There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">How much of Slackware is in Salix</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2013-10-30 </span>
+        
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<p>That is a question that I had in my mind for a while. At some point I had also
+done the actual counting, so I had an idea, but I never wrote anything down.</p>
+
+<p>There are many people that believe that a derivative distribution only just
+leeches their parent distribution, maybe changing the default wallpaper or a
+couple of settings here and there and making a release. I know for a fact that
+some people that have never tried Salix (or have tried Salix but never
+Slackware itself) even think the same for Salix. I don&rsquo;t doubt that there are a
+lot of derivative distributions that are like that, but well&hellip; Salix is
+definitely not like that.</p>
+
+<p>The numbers that are shown here are for Slackware/Salix 14 .0 and the 32-bit
+repositories. For previous, or more recent releases (when they will be
+released) the numbers would probably be very similar. The 64-bit repositories
+should be the same as the 32-bit repositories (give or take a package). These
+numbers may also change a little in the course of each release&rsquo;s lifetime as
+security related packages are added to the patches directories etc, but only
+just a little.</p>
+
+<h2 id="repositories">Repositories</h2>
+
+<p>First of all, all of Slackware is in Salix. What I mean by that, is that every
+package that is included in the Slackware repositories, is available in Salix
+through the package manager (GSlapt from the GUI or slapt-get from the command
+line). There are
+<a href="http://docs.salixos.org/wiki/Packages,_that_are_different_from_Slackware">a few exceptions</a>,
+where we substitute Slackware packages for
+Salix-specific package, for several reasons that are very important to us, but
+that&rsquo;s it.</p>
+
+<p>So, in terms of available pre-packaged software that you can find through the
+package manager in Salix, there is a total of 2145 packages. Of that, 1151
+(53.7%) are original Slackware packages. The rest (994, 46.3%) are packages
+that were build for Salix and that you cannot find in Slackware repositories.
+Of course, Slackware users can install any of those packages if they like as
+every package is 100% compatible to Slackware. So, Salix almost doubles the
+amount of ready made software that a Slackware user can install.</p>
+
+<h2 id="releases">Releases</h2>
+
+<p>So, what happens with Salix releases and the system that you get right after a
+fresh installation? The answer here varies, as Salix has several releases,
+based on different Desktop Environments and there are also different
+installation modes for each of those releases, Core, Basic and Full,
+respectively.</p>
+
+<p>We&rsquo;ll take a look at our Xfce, KDE and our soon-to-be-released Ratpoison
+editions for version 14.0.</p>
+
+<p>Keep in mind that the numbers listed below are what happens right after a fresh
+installation. If people install the multimedia codecs using our
+salix-codecs-installer tool (and most people would), the number of Salix
+packages would increase by about 50.</p>
+
+<h3 id="core-installation">Core Installation</h3>
+
+<p>A Salix Core installation is exactly the same, no matter what iso image you
+used to make the installation.</p>
+
+<p>After a Core mode installation, you get a total of 250 installed packages. Of
+those packages, the vast majority (233, 93.2%) are Slackware packages. The rest
+(17, 6.8%) are Salix-specific packages. The Salix packages are mainly the
+package manager, the Salix command line system tools and their dependencies and
+nothing more.</p>
+
+<p>So, what you get with a Salix Core installation, is mainly a Slackware system
+that only works from the command line and only very few added packages by
+Salix. It&rsquo;s funny, because there are a lot of Slackware users that apparently
+look for a stripped down Slackware installation with no GUI, but never look at
+Salix.</p>
+
+<h3 id="xfce-basic-installation">Xfce Basic Installation</h3>
+
+<p>OK, so what happens once we start adding a GUI and all related packages. A
+Salix Basic installation adds only the Desktop Environment and very few
+graphical applications on top of it, like a browser, a graphical package
+manager and the Salix GUI system tools.</p>
+
+<p>After an Xfce Basic installation, you get a total of 579 packages (including
+all the packages in the Core installation). 532 of those packages (91.9%) are
+pure Slackware packages. Still, only 47 (8.1%) are Salix specific packages. The
+number of Salix specific packages might still be small, but these few packages
+this time make a difference; among these packages there are packages that add
+important functionality, like the Salix GUI system tools or a login manager
+etc.</p>
+
+<h3 id="xfce-full-installation">Xfce Full Installation</h3>
+
+<p>An Xfce Full installation is what most people would use though.</p>
+
+<p>A total of 761 packages are installed (including all packages in the Core and
+Basic installations). Of those packages, 611 (80.3%) are Slackware packages and
+150 (19.7%) are Salix packages. So, the Salix part becomes really significant
+here and among the Salix packages are some that are considered really important
+for a desktop distribution, like the LibreOffice suite, the media players,
+document/image viewers etc.</p>
+
+<h3 id="kde-basic-installation">KDE Basic Installation</h3>
+
+<p>After a KDE Basic installation, you get a total of 626 packages installed. The
+number of Slackware packages is 580 (92.7%) and the number of Salix packages is
+46 (7.3%). The numbers are similar to the Xfce Basic installation.</p>
+
+<h3 id="kde-full-installation">KDE Full Installation</h3>
+
+<p>A KDE Full installation includes a total of 760 packages. Of those, 661 (87.0%)
+are Slackware packages and 99 (13.0%) are Salix packages. The numbers are
+similar to the Xfce Full installation, only slightly skewed to the Slackware
+side, as KDE is a major part and the default DE for Slackware and a lot of
+KDE-related software is part of Slackware anyway.</p>
+
+<h3 id="ratpoison-basic-installation">Ratpoison Basic Installation</h3>
+
+<p>In a Ratpoison Basic installation, there is a total of 561 packages. Of those,
+514 (91.6%) are Slackware packages and 47 (8.4%) are Salix packages. So,
+numbers are similar across all Basic installations.</p>
+
+<h3 id="ratpoison-full-installation">Ratpoison Full Installation</h3>
+
+<p>A total of 672 packages are installed in a Ratpoison Full installation. The
+number of Slackware packages is 575 (85.6%) and the number of Salix packages is
+97 (14.4%). The numbers are somewhere in between the Xfce and KDE Full
+installations.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>Here is a table that sums up all the numbers mentioned above:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="center">Total</th>
+<th align="center">Slackware</th>
+<th align="center">Salix</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Repositories</td>
+<td align="center">2145</td>
+<td align="center">1151 (53.7%)</td>
+<td align="center">994 (46.3%)</td>
+</tr>
+
+<tr>
+<td align="left">Core</td>
+<td align="center">250</td>
+<td align="center">233 (93.2%)</td>
+<td align="center">17 (6.8%)</td>
+</tr>
+
+<tr>
+<td align="left">Xfce Basic</td>
+<td align="center">579</td>
+<td align="center">532 (91.9%)</td>
+<td align="center">47 (8.1%)</td>
+</tr>
+
+<tr>
+<td align="left">Xfce Full</td>
+<td align="center">761</td>
+<td align="center">611 (80.3%)</td>
+<td align="center">150 (19.7%)</td>
+</tr>
+
+<tr>
+<td align="left">KDE Basic</td>
+<td align="center">626</td>
+<td align="center">580 (92.7%)</td>
+<td align="center">46 (7.3%)</td>
+</tr>
+
+<tr>
+<td align="left">KDE Full</td>
+<td align="center">760</td>
+<td align="center">61 (87.0%)</td>
+<td align="center">99 (13.0%)</td>
+</tr>
+
+<tr>
+<td align="left">Ratpoison Basic</td>
+<td align="center">561</td>
+<td align="center">514 (91.6%)</td>
+<td align="center">47 (8.4%)</td>
+</tr>
+
+<tr>
+<td align="left">Ratpoison Full</td>
+<td align="center">672</td>
+<td align="center">575 (85.6%)</td>
+<td align="center">97 (14.4%)</td>
+</tr>
+</tbody>
+</table>
+
+<p>It is obvious that the contribution of Salix to the Slackware ecosystem is
+significant. With Salix almost doubling the amount of packages that Slackware
+offers, it is the largest third-part package repository for Slackware out
+there. What&rsquo;s most important is that these packages are of very high quality,
+tested and guaranteed to work in a pure Slackware installation.</p>
+
+<p>Moreover, the part that Slackware plays in every Salix release is apparent.
+What you get after a Salix installation, is really a stripped Slackware system,
+that includes all the extra parts that Salix provides to make it really usable.</p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/packages/">packages</a>
+          
+          <a href="/tags/repositories/">repositories</a>
+          
+          <a href="/tags/slackware/">slackware</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/the-gksu-problem/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">The gksu problem</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/new-website-design/">
+            <span class="next-text nav-default">New Website Design</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

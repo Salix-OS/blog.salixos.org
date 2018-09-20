@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on The Salix Blog</title>
+    <link>https://blog.salixos.org/tags/website/</link>
+    <description>Recent content in Website on The Salix Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Oct 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Website Design</title>
+      <link>https://blog.salixos.org/post/new-website-design/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/new-website-design/</guid>
+      <description>As many might have noticed, we now have a new main website design!
+Since the Salix project was started, the main website was actually a part of our wiki, which is using the MediaWiki engine. That had one main advantage, which at that time seemed enough to justify that choice; we would use a single CMS to manage both our wiki and our main page. So, we created a custom MediaWiki theme that would look good as a main project page and as a wiki.</description>
+    </item>
+    
+  </channel>
+</rss>
