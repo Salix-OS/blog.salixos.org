@@ -1,190 +1,190 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="https://salix-os.github.io/blog.salixos.org/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://blog.salixos.org/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/our-new-extra-repository/</loc>
+    <loc>https://blog.salixos.org/post/our-new-extra-repository/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/our-sbo-mirrors/</loc>
+    <loc>https://blog.salixos.org/post/our-sbo-mirrors/</loc>
     <lastmod>2014-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/mate-is-around-the-corner/</loc>
+    <loc>https://blog.salixos.org/post/mate-is-around-the-corner/</loc>
     <lastmod>2014-03-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/new-startup-guide/</loc>
+    <loc>https://blog.salixos.org/post/new-startup-guide/</loc>
     <lastmod>2014-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/kernel-decisions/</loc>
+    <loc>https://blog.salixos.org/post/kernel-decisions/</loc>
     <lastmod>2014-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/the-gksu-problem/</loc>
+    <loc>https://blog.salixos.org/post/the-gksu-problem/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</loc>
+    <loc>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</loc>
     <lastmod>2013-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/new-website-design/</loc>
+    <loc>https://blog.salixos.org/post/new-website-design/</loc>
     <lastmod>2013-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/categories/</loc>
+    <loc>https://blog.salixos.org/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/gksu/</loc>
+    <loc>https://blog.salixos.org/tags/gksu/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/gnsu/</loc>
+    <loc>https://blog.salixos.org/tags/gnsu/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/guide/</loc>
+    <loc>https://blog.salixos.org/tags/guide/</loc>
     <lastmod>2014-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/iso/</loc>
+    <loc>https://blog.salixos.org/tags/iso/</loc>
     <lastmod>2014-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/kernel/</loc>
+    <loc>https://blog.salixos.org/tags/kernel/</loc>
     <lastmod>2014-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/ktsuss/</loc>
+    <loc>https://blog.salixos.org/tags/ktsuss/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/mate/</loc>
+    <loc>https://blog.salixos.org/tags/mate/</loc>
     <lastmod>2014-03-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/packages/</loc>
+    <loc>https://blog.salixos.org/tags/packages/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/pelican/</loc>
+    <loc>https://blog.salixos.org/tags/pelican/</loc>
     <lastmod>2013-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/post/</loc>
+    <loc>https://blog.salixos.org/post/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/repositories/</loc>
+    <loc>https://blog.salixos.org/tags/repositories/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/shadow/</loc>
+    <loc>https://blog.salixos.org/tags/shadow/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/slackbuilds/</loc>
+    <loc>https://blog.salixos.org/tags/slackbuilds/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/slackware/</loc>
+    <loc>https://blog.salixos.org/tags/slackware/</loc>
     <lastmod>2013-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/</loc>
+    <loc>https://blog.salixos.org/tags/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/</loc>
+    <loc>https://blog.salixos.org/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/txt2tags/</loc>
+    <loc>https://blog.salixos.org/tags/txt2tags/</loc>
     <lastmod>2014-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://salix-os.github.io/blog.salixos.org/tags/website/</loc>
+    <loc>https://blog.salixos.org/tags/website/</loc>
     <lastmod>2013-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

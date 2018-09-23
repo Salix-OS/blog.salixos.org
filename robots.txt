@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://salix-os.github.io/blog.salixos.org/sitemap.xml
+Sitemap: https://blog.salixos.org/sitemap.xml

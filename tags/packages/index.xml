@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Packages on The Salix Blog</title>
-    <link>https://salix-os.github.io/blog.salixos.org/tags/packages/</link>
+    <link>https://blog.salixos.org/tags/packages/</link>
     <description>Recent content in Packages on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 09 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://salix-os.github.io/blog.salixos.org/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.salixos.org/tags/packages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Our new extra repository</title>
-      <link>https://salix-os.github.io/blog.salixos.org/post/our-new-extra-repository/</link>
+      <link>https://blog.salixos.org/post/our-new-extra-repository/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/post/our-new-extra-repository/</guid>
+      <guid>https://blog.salixos.org/post/our-new-extra-repository/</guid>
       <description>You might have noticed that just before the Salix Xfce 14.2RC1 release a new repository, named extra-14.2 has appeared in our servers. This has been enabled by default in the 14.2RC1 and 14.2RC2 releases and will be also available in the final 14.2 release.
 This new repository is present for both i486 and x86_64 architectures and its purpose it to include packages built from SlackBuilds found at slackbuilds.org. At this moment, it&amp;rsquo;s not that full, only about 20 packages are included in it.</description>
     </item>
     
     <item>
       <title>Our SBo mirrors</title>
-      <link>https://salix-os.github.io/blog.salixos.org/post/our-sbo-mirrors/</link>
+      <link>https://blog.salixos.org/post/our-sbo-mirrors/</link>
       <pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/post/our-sbo-mirrors/</guid>
+      <guid>https://blog.salixos.org/post/our-sbo-mirrors/</guid>
       <description>We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
 First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&amp;rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&amp;rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far.</description>
     </item>
     
     <item>
       <title>How much of Slackware is in Salix</title>
-      <link>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</link>
+      <link>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</link>
       <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/post/how-much-of-slackware-is-in-salix/</guid>
+      <guid>https://blog.salixos.org/post/how-much-of-slackware-is-in-salix/</guid>
       <description>That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
 There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix.</description>
     </item>

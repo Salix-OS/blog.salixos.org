@@ -2,147 +2,147 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The Salix Blog</title>
-    <link>https://salix-os.github.io/blog.salixos.org/tags/</link>
+    <link>https://blog.salixos.org/tags/</link>
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Nov 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://salix-os.github.io/blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gksu</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/gksu/</link>
+      <link>https://blog.salixos.org/tags/gksu/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/gksu/</guid>
+      <guid>https://blog.salixos.org/tags/gksu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gnsu</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/gnsu/</link>
+      <link>https://blog.salixos.org/tags/gnsu/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/gnsu/</guid>
+      <guid>https://blog.salixos.org/tags/gnsu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guide</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/guide/</link>
+      <link>https://blog.salixos.org/tags/guide/</link>
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/guide/</guid>
+      <guid>https://blog.salixos.org/tags/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iso</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/iso/</link>
+      <link>https://blog.salixos.org/tags/iso/</link>
       <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/iso/</guid>
+      <guid>https://blog.salixos.org/tags/iso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kernel</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/kernel/</link>
+      <link>https://blog.salixos.org/tags/kernel/</link>
       <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/kernel/</guid>
+      <guid>https://blog.salixos.org/tags/kernel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ktsuss</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/ktsuss/</link>
+      <link>https://blog.salixos.org/tags/ktsuss/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/ktsuss/</guid>
+      <guid>https://blog.salixos.org/tags/ktsuss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MATE</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/mate/</link>
+      <link>https://blog.salixos.org/tags/mate/</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/mate/</guid>
+      <guid>https://blog.salixos.org/tags/mate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Packages</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/packages/</link>
+      <link>https://blog.salixos.org/tags/packages/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/packages/</guid>
+      <guid>https://blog.salixos.org/tags/packages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pelican</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/pelican/</link>
+      <link>https://blog.salixos.org/tags/pelican/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/pelican/</guid>
+      <guid>https://blog.salixos.org/tags/pelican/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Repositories</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/repositories/</link>
+      <link>https://blog.salixos.org/tags/repositories/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/repositories/</guid>
+      <guid>https://blog.salixos.org/tags/repositories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shadow</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/shadow/</link>
+      <link>https://blog.salixos.org/tags/shadow/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/shadow/</guid>
+      <guid>https://blog.salixos.org/tags/shadow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slackbuilds</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/slackbuilds/</link>
+      <link>https://blog.salixos.org/tags/slackbuilds/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/slackbuilds/</guid>
+      <guid>https://blog.salixos.org/tags/slackbuilds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slackware</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/slackware/</link>
+      <link>https://blog.salixos.org/tags/slackware/</link>
       <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/slackware/</guid>
+      <guid>https://blog.salixos.org/tags/slackware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Txt2tags</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/txt2tags/</link>
+      <link>https://blog.salixos.org/tags/txt2tags/</link>
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/txt2tags/</guid>
+      <guid>https://blog.salixos.org/tags/txt2tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website</title>
-      <link>https://salix-os.github.io/blog.salixos.org/tags/website/</link>
+      <link>https://blog.salixos.org/tags/website/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://salix-os.github.io/blog.salixos.org/tags/website/</guid>
+      <guid>https://blog.salixos.org/tags/website/</guid>
       <description></description>
     </item>
     
