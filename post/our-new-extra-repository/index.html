@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Our new extra repository - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" />
+  <meta name="description" content="You might have noticed that just before the Salix Xfce 14.2RC1 release a new repository, named extra-14.2 has appeared in our servers. This has been enabled by default in the 14.2RC1 and 14.2RC2 releases and will be also available in the final 14.2 release.
+This new repository is present for both i486 and x86_64 architectures and its purpose it to include packages built from SlackBuilds found at slackbuilds.org. At this moment, it&amp;rsquo;s not that full, only about 20 packages are included in it." />
+
+  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.49.2" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/our-new-extra-repository/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Our new extra repository" />
+<meta property="og:description" content="You might have noticed that just before the Salix Xfce 14.2RC1 release a new repository, named extra-14.2 has appeared in our servers. This has been enabled by default in the 14.2RC1 and 14.2RC2 releases and will be also available in the final 14.2 release.
+This new repository is present for both i486 and x86_64 architectures and its purpose it to include packages built from SlackBuilds found at slackbuilds.org. At this moment, it&rsquo;s not that full, only about 20 packages are included in it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/our-new-extra-repository/" /><meta property="article:published_time" content="2016-10-09T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-10-09T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="Our new extra repository">
+<meta itemprop="description" content="You might have noticed that just before the Salix Xfce 14.2RC1 release a new repository, named extra-14.2 has appeared in our servers. This has been enabled by default in the 14.2RC1 and 14.2RC2 releases and will be also available in the final 14.2 release.
+This new repository is present for both i486 and x86_64 architectures and its purpose it to include packages built from SlackBuilds found at slackbuilds.org. At this moment, it&rsquo;s not that full, only about 20 packages are included in it.">
+
+
+<meta itemprop="datePublished" content="2016-10-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2016-10-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="774">
+
+
+
+<meta itemprop="keywords" content="packages,repositories,slackbuilds," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Our new extra repository"/>
+<meta name="twitter:description" content="You might have noticed that just before the Salix Xfce 14.2RC1 release a new repository, named extra-14.2 has appeared in our servers. This has been enabled by default in the 14.2RC1 and 14.2RC2 releases and will be also available in the final 14.2 release.
+This new repository is present for both i486 and x86_64 architectures and its purpose it to include packages built from SlackBuilds found at slackbuilds.org. At this moment, it&rsquo;s not that full, only about 20 packages are included in it."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Our new extra repository</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2016-10-09 </span>
+        
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>You might have noticed that just before the Salix Xfce 14.2RC1 release
+a new repository, named extra-14.2 has appeared in our servers. This
+has been enabled by default in the 14.2RC1 and 14.2RC2 releases and
+will be also available in the final 14.2 release.</p>
+
+<p>This new repository is present for both i486 and x86_64 architectures
+and its purpose it to include packages built from SlackBuilds found at
+<a href="https://slackbuilds.org/">slackbuilds.org</a>.
+At this moment, it&rsquo;s not that full, only about 20
+packages are included in it. These are mostly there as proof of concept
+and for initial testing. Eventually, the extra repository will be
+filled with packages for almost every SlackBuild present in SBo.</p>
+
+<p>For the purpose of automatically building the packages, a new tool,
+<a href="https://github.com/gapan/sbobuild">sbobuild</a>,
+has been developed. This takes a list of SlackBuild names as
+input and continues to build the respective packages, create complete
+source code trees and keep a log of every build. It&rsquo;s not perfect
+(yet), it was written in a hurry, but it does the job it is supposed to
+do for now. Other similar tools exist, like
+<a href="https://github.com/idlemoor/slackrepo">slackrepo</a>, but they are only
+meant to be used in Slackware. As such, they don&rsquo;t take into account the
+many packages that are already included in the Salix repositories and
+may introduce conflicts. What sbobuild does, is check if any given
+software available in SBo is already availabe in the Salix repositories
+and if it is, it just skips it. For building and uploading the packages
+that are created to our main repository, we now have a new server, which
+was only made possible due to user donations.</p>
+
+<p>Currently, the <code>libraries</code> directory of SBo is being processed and
+packages keep coming out. As soon as this batch is finished, they will
+all be uploaded to the main repository and the next batch will follow.
+The <code>libraries</code> directory alone consists of more than 800 packages and SBo
+holds more than 5000 SlackBuilds. Considering that most SlackBuilds do
+not take advantage of multiple processors/cores to spawn multiple build
+instances, this task is going to take some time.</p>
+
+<p>Now, SBo has a few known shortcomings. There are some SlackBuilds that
+are just unmaintained and have not been updated for a long time, in some
+cases for years. Then, there are others that have broken download links
+for their respective source tarballs, sometimes intermittently. And then
+there are cases of conflicts and incompatibilities that sometimes are
+known, but in other cases are not and nobody has noticed. Finally, there
+are a few SlackBuilds that are about software that is really meant to
+only be built from source. One such examples is ATLAS, which needs to be
+tuned for every single CPU it runs on. Due to this nature of SBo, not
+every SlackBuild is guaranteed to work and that is the reason why not
+everything will be finally built. Of course we&rsquo;re keeping logs with
+<em>everything</em> that fails and we will try to fix some of those builds that
+failed for any reason.</p>
+
+<p>Additionally, SBo has a policy of constantly updating its contents with
+new versions, which in my opinion is competely against Slackware&rsquo;s
+policy (as well as our own) for stability. For that reason, our extra
+repository will remain mostly static. That means that we will not update
+packages with newer versions just for the sake of having a newer
+version. However if we receive reports that something is terribly broken
+or severely compromised, we will definitely try to fix it. Newer
+versions, as they are updated in SBo, will be available through
+Sourcery/slapt-src for any users that want them, but users then will
+have to take care of any conflicts that might arise.</p>
+
+<p>Also, the packages in the extra repository have not been thoroughly
+tested, certainly not in the level that packages in the standard Salix
+repositories have. Think of it as an equivalent to the <em>Universe</em>
+repository in Ubuntu, if you&rsquo;re familiar with it.</p>
+
+<p>In some cases, mostly with Python and Perl libraries and software, not
+all dependencies will be listed. If you find such a case, please notify
+us (in the forums or the mailing list) and we&rsquo;ll try to fix it.</p>
+
+<p>Since the extra repository has a lower priority in the <code>slapt-getrc</code>
+settings than the standard Salix repositories, Salix specific packages
+will always override their counterparts in the extra repository and the
+users will have no problem updating their systems just by using
+<code>slapt-get</code> from the command line or gslapt from the GUI.</p>
+
+<p>I think this is very exciting news for Salix. The new 14.2 release is
+going to include more software than was ever available in the
+repositories for previous releases.</p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/packages/">packages</a>
+          
+          <a href="/tags/repositories/">repositories</a>
+          
+          <a href="/tags/slackbuilds/">slackbuilds</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/our-sbo-mirrors/">
+            <span class="next-text nav-default">Our SBo mirrors</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

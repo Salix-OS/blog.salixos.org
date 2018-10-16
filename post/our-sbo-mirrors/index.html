@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Our SBo mirrors - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" />
+  <meta name="description" content="We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
+First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&amp;rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&amp;rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far." />
+
+  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.49.2" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/our-sbo-mirrors/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Our SBo mirrors" />
+<meta property="og:description" content="We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
+First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/our-sbo-mirrors/" /><meta property="article:published_time" content="2014-10-09T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2014-10-09T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="Our SBo mirrors">
+<meta itemprop="description" content="We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
+First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far.">
+
+
+<meta itemprop="datePublished" content="2014-10-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2014-10-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="840">
+
+
+
+<meta itemprop="keywords" content="packages,repositories,slackbuilds," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Our SBo mirrors"/>
+<meta name="twitter:description" content="We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
+First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Our SBo mirrors</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2014-10-09 </span>
+        
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>We have been mirroring the
+<a href="http://slackbuilds.org/">slackbuilds.org</a> (SBo) repository and at the
+same time applying slight changes to it for some time now. These
+changes are essential to Salix, for a few reasons.</p>
+
+<p>First of all, the SBo maintainers have decided that they will only list
+SlackBuild dependencies only if these are not part of a Slackware full
+installation. While this may be a decision that is fine for Slackware
+itself, since they don&rsquo;t offer any kind of support for users doing
+anything other than a full Slackware installation, it&rsquo;s generally not
+good for Salix, since a Salix installation of any edition, is slimmer
+than a full Slackware installation, by far. For example, in Slackware
+it is expected that everyone has the Qt libraries installed, but this
+is definitely not true for Salix (except from our KDE edition of
+course). So, a lot of the SlackBuilds at SBo end up having
+missing dependencies when it comes to a Salix installation.</p>
+
+<p>Then, there is a problem with package/SlackBuild naming. We have a lot
+of packages in the Salix package repositories that are also present in
+the SBo repository. While we try to keep the package naming consistent
+with the one they&rsquo;re using in SBo, that is not always possible. For
+example, at this moment, there is a package named &ldquo;python-configobj&rdquo; in
+our package repositories and another one named &ldquo;configobj&rdquo; in SBo,
+which are actually the exact same piece of software. Even if we made
+every effort and named everything at the time of release according to
+the SBo names, SBo is constantly changing and SlackBuilds may be
+renamed.</p>
+
+<p>Another problem (for lack of a better word) is that SlackBuild
+maintainers choose to update their SlackBuilds as soon as a new version
+of the software they are packaging is out. While this might not be bad
+in itself, it kind of conflicts with the way things work for the binary
+package repositories in Slackware and also in Salix, which generally
+follow the idea that upgrades should only be done for security reasons.
+And since there is a very wide overlap between packages offered in the
+Salix binary package repositories and the SlackBuilds provided by SBo,
+there are often newer versions available in SBo than in the Salix
+binary package repositories. This might confuse users, because by
+opening Gslapt, they find one version and by opening Sourcery, they
+find another, often newer, version. What&rsquo;s more, if they were to
+&ldquo;upgrade&rdquo; to the version available in SBo, they would find that
+Gslapt/slapt-get would want to &ldquo;downgrade&rdquo; that package to the version
+available in the Salix binary repositories and the only way to stop
+that would be to put the package in the EXCLUDE list in their
+slapt-getrc file.</p>
+
+<p>So, in Salix, we have to deal with these problems. Here&rsquo;s what we do&hellip;</p>
+
+<p>Our own copy of the SBo repository, the one that is available by
+default to Salix users through our package management tools is synced
+with the main SBo repository every few hours.</p>
+
+<p>For the first problem mentioned above, we have a mechanism for adding
+&ldquo;missing&rdquo; dependencies in our copy of the SBo repository. For example,
+the ardour SlackBuild requires cmake to build. Now, cmake is always
+thought to be present in a Slackware installation, otherwise it is not
+a full Slackware installation and it is not supported in any way. In
+Salix though, cmake is definitely not part of a standard installation
+and so we add it as an extra dependency for ardour.</p>
+
+<p>For the second problem, we have created a list of packages/SlackBuilds
+that are named in a different way between repositories. Every
+SlackBuild that is also present as a binary package in the Salix
+repositories with a different name, is removed from our own copy of the
+SBo repository and every reference to it in dependencies is replaced
+with the name that the package has in our own binary package
+repository. This way, the package in the Salix binary package
+repositories is always used, even if it is originally named otherwise
+in the original SBo repository.</p>
+
+<p>Finally, all software that is present in both the Salix binary package
+repositories and SBo, is removed from our own copy of the SBo
+repository, so there is no way users will be confused and go back and
+forth between versions. Actually, the SlackBuilds themselves are not
+removed from the repositories, rather the reference for them in the
+SLACKBUILDS.TXT file is removed, so it isn&rsquo;t used by our SlackBuild
+management tools, slapt-src, Sourcery or spi.</p>
+
+<p>With SBo being a moving target though, this process will always be
+ongoing and will never be 100% complete. If you find a SlackBuild that
+is missing some dependency, please report it, either in our
+<a href="http://salixos.org/mailinglists.html">mailing list</a>
+or in our
+<a href="http://forum.salixos.org/">forums</a>.
+Similarly, if you find the same SlackBuild
+present in both the Salix binary package repositories (hence available
+in Gslapt) and our own copy of SBo repositories (hence
+available in Sourcery), please report that too. Of course
+feel free to report any other problem you might find with our
+repositories.</p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/packages/">packages</a>
+          
+          <a href="/tags/repositories/">repositories</a>
+          
+          <a href="/tags/slackbuilds/">slackbuilds</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/our-new-extra-repository/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Our new extra repository</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/mate-is-around-the-corner/">
+            <span class="next-text nav-default">MATE is around the corner</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

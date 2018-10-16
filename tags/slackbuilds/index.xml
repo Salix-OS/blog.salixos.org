@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slackbuilds on The Salix Blog</title>
+    <title>slackbuilds on The Salix Blog</title>
     <link>https://blog.salixos.org/tags/slackbuilds/</link>
-    <description>Recent content in Slackbuilds on The Salix Blog</description>
+    <description>Recent content in slackbuilds on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 09 Oct 2016 00:00:00 +0000</lastBuildDate>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="https://blog.salixos.org/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://blog.salixos.org/post/our-new-extra-repository/</loc>
@@ -65,6 +65,34 @@
   </url>
   
   <url>
+    <loc>https://blog.salixos.org/tags/mate/</loc>
+    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/post/</loc>
+    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/</loc>
+    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/</loc>
+    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/tags/gksu/</loc>
     <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -107,13 +135,6 @@
   </url>
   
   <url>
-    <loc>https://blog.salixos.org/tags/mate/</loc>
-    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.salixos.org/tags/packages/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -123,13 +144,6 @@
   <url>
     <loc>https://blog.salixos.org/tags/pelican/</loc>
     <lastmod>2013-10-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/post/</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -158,20 +172,6 @@
   <url>
     <loc>https://blog.salixos.org/tags/slackware/</loc>
     <lastmod>2013-10-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/</loc>
-    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

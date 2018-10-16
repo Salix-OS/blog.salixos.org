@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The gksu problem - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" />
+  <meta name="description" content="We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&amp;rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&amp;rsquo;t fix it, almost nothing in the System part of the menu would actually work." />
+
+  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.49.2" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/the-gksu-problem/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="The gksu problem" />
+<meta property="og:description" content="We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&rsquo;t fix it, almost nothing in the System part of the menu would actually work." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/the-gksu-problem/" /><meta property="article:published_time" content="2013-11-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2013-11-13T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="The gksu problem">
+<meta itemprop="description" content="We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&rsquo;t fix it, almost nothing in the System part of the menu would actually work.">
+
+
+<meta itemprop="datePublished" content="2013-11-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2013-11-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="581">
+
+
+
+<meta itemprop="keywords" content="gksu,gnsu,ktsuss,shadow," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The gksu problem"/>
+<meta name="twitter:description" content="We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&rsquo;t fix it, almost nothing in the System part of the menu would actually work."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">The gksu problem</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2013-11-13 </span>
+        
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>We had a real problem with ktsuss/gksu while developing for 14.1. It
+seems that newer versions of the shadow package, and certainly the one
+that is included in Slackware 14.1, don&rsquo;t allow su to be executed in any
+other way except directly from a terminal. That means that su cannot be
+executed as a subprocess from inside ktsuss or the original gksu anymore
+and these become effectively useless. This is a critical issue for us,
+because if we don&rsquo;t fix it, almost nothing in the System part of the
+menu would actually work.</p>
+
+<p><a href="https://live.gnome.org/gksu">gksu-polkit</a>
+works around this problem by using policykit for getting
+superuser proviliges, but it doesn&rsquo;t seem to be developed and it has
+terrible bugs that cause the CPU to hit 100% and stay there. It
+would fry your PC.</p>
+
+<p>So, one solution, was to patch ktsuss to actually open a terminal
+and execute su from inside a terminal. But that would mean a
+terminal popping on the screen and staying there for the duration
+that you had the application that you launched open. And if you
+actually closed the terminal, the app would close too. Ugly.</p>
+
+<p>The other solution would be to stick with the shadow version that
+came with 14.0. ktsuss works fine with that. But we can&rsquo;t rely on
+older versions of software like that. We can&rsquo;t keep the old version
+forever and this was no real solution.</p>
+
+<p>So, in the absense of anything else out there that fixes this
+problem, there was nothing else left but writing my own. Enter <em>gnsu</em>
+(Gnsu&rsquo;s Not SU). It&rsquo;s actually a couple of rather simple shell
+scripts that use <a href="https://code.google.com/p/yad/">yad</a>
+to display a window requesting the <em>user</em>
+password to get superuser rights using sudo as a backend.</p>
+
+<p>That means that you don&rsquo;t have to provide (or know) the <em>root</em> user
+password to launch an app with superuser priviliges. But you need to
+be included in the sudoers list. So you would have to run <code>visudo</code>
+from a root terminal and add something like the following somewhere
+in the file:</p>
+
+<pre><code>george ALL=(ALL) ALL
+</code></pre>
+
+<p>to allow user <em>george</em> to run apps with superuser priviliges, or
+something like:</p>
+
+<pre><code>%users ALL=(ALL) ALL
+</code></pre>
+
+<p>to allow anyone in the <em>users</em> group to do the same.</p>
+
+<p>I chose yad for displaying the password request window, for
+the reason that it has more features than other similar apps
+out there and would allow me to make the window a bit more
+beatiful, by displaying an icon in it. It would be trivial
+to patch gnsu to use zenity, matedialogs, xdialog or any
+other similar app out there.</p>
+
+<p>The code for gnsu is up on <a href="https://github.com/gapan/gnsu">github</a>.
+It&rsquo;s in early stages, but
+it works. I still want to add some things, like support for
+translations and a Makefile, but these can come later. Oh, I
+could use the strings from our
+<a href="https://www.transifex.com/projects/p/salix/resource/ktsuss-l10n/">ktssuss translation project</a>,
+so it would be already translated.</p>
+
+<p>Now, just symlink gnsu to gksu (not necessary if you install
+the gnsu package) and everything should work.</p>
+
+<p>There is an added benefit by using sudo as the backend; if
+you launch something with gnsu from a terminal and then
+launch something else with gnsu again from the same terminal
+in a short time after the first one, you don&rsquo;t get a
+password request the second time (or third, or forth&hellip;).
+This behaviour can be tweaked by editing sudo settings.</p>
+
+<p>Can&rsquo;t get any more simple than that.</p>
+
+<p>Plus, I always wanted to name something with a recursive
+acronym. :D</p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/gksu/">gksu</a>
+          
+          <a href="/tags/gnsu/">gnsu</a>
+          
+          <a href="/tags/ktsuss/">ktsuss</a>
+          
+          <a href="/tags/shadow/">shadow</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/kernel-decisions/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Kernel decisions</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/how-much-of-slackware-is-in-salix/">
+            <span class="next-text nav-default">How much of Slackware is in Salix</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

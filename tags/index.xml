@@ -6,64 +6,10 @@
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Gksu</title>
-      <link>https://blog.salixos.org/tags/gksu/</link>
-      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/gksu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gnsu</title>
-      <link>https://blog.salixos.org/tags/gnsu/</link>
-      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/gnsu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guide</title>
-      <link>https://blog.salixos.org/tags/guide/</link>
-      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/guide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iso</title>
-      <link>https://blog.salixos.org/tags/iso/</link>
-      <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/iso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kernel</title>
-      <link>https://blog.salixos.org/tags/kernel/</link>
-      <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/kernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ktsuss</title>
-      <link>https://blog.salixos.org/tags/ktsuss/</link>
-      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/ktsuss/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>MATE</title>
@@ -75,7 +21,61 @@
     </item>
     
     <item>
-      <title>Packages</title>
+      <title>gksu</title>
+      <link>https://blog.salixos.org/tags/gksu/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/gksu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnsu</title>
+      <link>https://blog.salixos.org/tags/gnsu/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/gnsu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guide</title>
+      <link>https://blog.salixos.org/tags/guide/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iso</title>
+      <link>https://blog.salixos.org/tags/iso/</link>
+      <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/iso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://blog.salixos.org/tags/kernel/</link>
+      <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ktsuss</title>
+      <link>https://blog.salixos.org/tags/ktsuss/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/ktsuss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packages</title>
       <link>https://blog.salixos.org/tags/packages/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
@@ -84,7 +84,7 @@
     </item>
     
     <item>
-      <title>Pelican</title>
+      <title>pelican</title>
       <link>https://blog.salixos.org/tags/pelican/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
@@ -93,7 +93,7 @@
     </item>
     
     <item>
-      <title>Repositories</title>
+      <title>repositories</title>
       <link>https://blog.salixos.org/tags/repositories/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
@@ -102,7 +102,7 @@
     </item>
     
     <item>
-      <title>Shadow</title>
+      <title>shadow</title>
       <link>https://blog.salixos.org/tags/shadow/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
@@ -111,7 +111,7 @@
     </item>
     
     <item>
-      <title>Slackbuilds</title>
+      <title>slackbuilds</title>
       <link>https://blog.salixos.org/tags/slackbuilds/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
@@ -120,7 +120,7 @@
     </item>
     
     <item>
-      <title>Slackware</title>
+      <title>slackware</title>
       <link>https://blog.salixos.org/tags/slackware/</link>
       <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
       
@@ -129,7 +129,7 @@
     </item>
     
     <item>
-      <title>Txt2tags</title>
+      <title>txt2tags</title>
       <link>https://blog.salixos.org/tags/txt2tags/</link>
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
@@ -138,7 +138,7 @@
     </item>
     
     <item>
-      <title>Website</title>
+      <title>website</title>
       <link>https://blog.salixos.org/tags/website/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
