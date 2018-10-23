@@ -34,7 +34,7 @@ at Github, using [Github Pages](https://pages.github.com/). I found a
 [tweaked it a bit](https://github.com/gapan/hugo-theme-even) to match Salix
 aesthetics and just went with it.
 
-Github Pages was not a real option until a few months, when they added
+Github Pages was not a real option until a few months ago, when they added
 support for HTTPS for all sites with a custom domain that are hosted
 there. I could have always uploaded the blog at one of our servers, but
 not having to maintain yet another thing is always nice. In fact, I'm
