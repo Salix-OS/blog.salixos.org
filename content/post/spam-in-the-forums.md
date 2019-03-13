@@ -16,8 +16,8 @@ About a year ago (or maybe more than that? I'm not sure), we moved to
 using Google's "I am not a robot" checkbox reCAPTCHA. This, is supposed
 to be the best countermeasure against bots. Before doing that, spammers
 were also a big problem. After moving to the new reCAPTCHA, things
-improved noticably. But lately, as it seems, spammers have pulled some
-tricks and have been able to register succesfully with the forums
+improved noticeably But lately, as it seems, spammers have pulled some
+tricks and have been able to register successfully with the forums
 anyway. I'm inclined to believe that the ones that are registering are
 not bots, but actual people that are being paid to do exactly that and
 then maybe hand the account over to a bot that will post the spam.
@@ -27,7 +27,7 @@ apart from legitimate posts. Some are very easy to spot, as they
 blatantly post links to what they want to advertise (for some reason,
 usually that is shoes). But most of the times, what they do, is quite
 advanced; they go through older, legitimate posts, copy some, or all of
-the text in themi, and use that to create a new post. Most of the times,
+the text in them, and use that to create a new post. Most of the times,
 it looks like a perfectly legitimate post and there is no way to tell
 that it's actually spam.
 
@@ -49,7 +49,7 @@ registered user that made a seemingly legitimate post, I searched the
 forum for similar posts. That was indeed a good way to identify them.
 Some of those bots are even more advanced, instead of searching through
 the forum to copy text for their posts, they search through the
-internet! Most of the times they use similar forums as source, so the
+Internet! Most of the times they use similar forums as source, so the
 posts seem legitimate, but are harder to identify. In most cases, these
 posts received replies, from users that couldn't identify them as
 spammers. Sometimes the questions were awkward, like "How do I install
@@ -72,7 +72,7 @@ we can. We encourage new users to make a new post on our
 [Salix pub forum section](https://forum.salixos.org/viewforum.php?f=12)
 to introduce themselves. You don't have to think of anything profound to
 write, just say hi! That way you'll be able to increase your
-post count and when the time comes that you actuall have a problem, you'll
+post count and when the time comes that you actual have a problem, you'll
 be able to post instantly.
 
 I'm hoping these changes will drive away spammers from our forums and
