@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>website on The Salix Blog</title>
-    <link>https://blog.salixos.org/tags/website/</link>
-    <description>Recent content in website on The Salix Blog</description>
+    <title>forums on The Salix Blog</title>
+    <link>https://blog.salixos.org/tags/forums/</link>
+    <description>Recent content in forums on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.salixos.org/tags/forums/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://blog.salixos.org/post/spam-in-the-forums/</guid>
       <description>Unfortunately, we&amp;rsquo;re having a huge problem with spammers in our forums. Most of the users that register are actually spammers. This has been going on for a while too.
 About a year ago (or maybe more than that? I&amp;rsquo;m not sure), we moved to using Google&amp;rsquo;s &amp;ldquo;I am not a robot&amp;rdquo; checkbox reCAPTCHA. This, is supposed to be the best countermeasure against bots. Before doing that, spammers were also a big problem.</description>
-    </item>
-    
-    <item>
-      <title>New Website Design</title>
-      <link>https://blog.salixos.org/post/new-website-design/</link>
-      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/post/new-website-design/</guid>
-      <description>As many might have noticed, we now have a new main website design!
-Since the Salix project was started, the main website was actually a part of our wiki, which is using the MediaWiki engine. That had one main advantage, which at that time seemed enough to justify that choice; we would use a single CMS to manage both our wiki and our main page. So, we created a custom MediaWiki theme that would look good as a main project page and as a wiki.</description>
     </item>
     
   </channel>

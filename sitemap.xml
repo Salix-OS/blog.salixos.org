@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.salixos.org/post/spam-in-the-forums/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/post/new-blog/</loc>
     <lastmod>2018-10-21T22:50:02+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,7 +87,7 @@
   
   <url>
     <loc>https://blog.salixos.org/post/</loc>
-    <lastmod>2018-10-21T22:50:02+03:00</lastmod>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -94,7 +101,14 @@
   
   <url>
     <loc>https://blog.salixos.org/</loc>
-    <lastmod>2018-10-21T22:50:02+03:00</lastmod>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/forums/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -192,7 +206,7 @@
   
   <url>
     <loc>https://blog.salixos.org/tags/website/</loc>
-    <lastmod>2013-10-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
