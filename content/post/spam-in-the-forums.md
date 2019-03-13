@@ -1,7 +1,6 @@
 ---
 title: "Spam in the Forums"
 date: 2019-03-13
-draft: true
 tags: ["forums", "website"]
 author: "George Vlahavas"
 
@@ -74,6 +73,10 @@ to introduce themselves. You don't have to think of anything profound to
 write, just say hi! That way you'll be able to increase your
 post count and when the time comes that you actual have a problem, you'll
 be able to post instantly.
+
+For some reason, since we implemented these changes, no spammers have
+registered in the forums! I would have expected that they register as
+usual, but be unable to post anything. Let's see how it goes...
 
 I'm hoping these changes will drive away spammers from our forums and
 all users will have a better experience.
