@@ -16,7 +16,7 @@ publish: build
 	git push -u origin master
 
 serve:
-	hugo serve --watch
+	hugo serve --watch --buildDrafts
 
 init:
 	touch README.md
