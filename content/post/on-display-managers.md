@@ -1,7 +1,6 @@
 ---
 title: "On Display Managers"
 date: 2019-07-05
-draft: true
 ---
 
 A Display Manager is the application that provides a graphic user
