@@ -1,6 +1,10 @@
 ---
 title: "On Display Managers"
 date: 2019-07-05
+tags: ["packages", "GDM", "default apps"]
+author: "George Vlahavas"
+
+autoCollapseToc: true
 ---
 
 A Display Manager is the application that provides a graphic user
