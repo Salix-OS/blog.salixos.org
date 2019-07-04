@@ -93,7 +93,7 @@ program, I was thinking that maybe I could replace the WINGs
 login window with a GTK+3 one and keep the rest of the app
 as is. Unfortunately, WDM does not support any kind of
 dynamic discovery of desktop environments or window manager
-sessions using the standard .desktop files. What it does is
+sessions using the standard .desktop files. What it does, is
 that it has hardcoded some of them in the code. This is not
 really an option if you want to be able to launch a desktop environment
 or a window manager that the WDM developers weren't aware of. Adding
