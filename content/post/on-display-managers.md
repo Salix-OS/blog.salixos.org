@@ -99,7 +99,7 @@ really an option if you want to be able to launch a desktop environment
 or a window manager that the WDM developers weren't aware of. Adding
 that functionality myself would be more than I bargained for. Oh, did I
 mention that it has been completely unmaintained for almost 10
-years now? 
+years now?
 
 KDM, from the KDE project, is one that was used as the default display
 manager in Slackware for ages. It has now been superseded by SSDM.
