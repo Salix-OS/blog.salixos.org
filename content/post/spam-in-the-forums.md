@@ -12,10 +12,10 @@ Most of the users that register are actually spammers. This has been
 going on for a while too.
 
 About a year ago (or maybe more than that? I'm not sure), we moved to
-using Google's "I am not a robot" checkbox reCAPTCHA. This, is supposed
+using Google's "I am not a robot" checkbox reCAPTCHA. This is supposed
 to be the best countermeasure against bots. Before doing that, spammers
 were also a big problem. After moving to the new reCAPTCHA, things
-improved noticeably But lately, as it seems, spammers have pulled some
+improved noticeably. But lately, as it seems, spammers have pulled some
 tricks and have been able to register successfully with the forums
 anyway. I'm inclined to believe that the ones that are registering are
 not bots, but actual people that are being paid to do exactly that and
