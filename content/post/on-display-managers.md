@@ -7,7 +7,7 @@ draft: true
 A Display Manager is the application that provides a graphic user
 interface (GUI) that is displayed at the end of the boot process and
 lets the user authenticate themselves by providing their username and
-password, before logging into their preferred X11 session, for example
+password, before entering their preferred X11 session, for example
 Xfce, KDE, fluxbox, etc.
 
 Up until Salix 14.2, we've been using a very old version of GDM as the
@@ -35,7 +35,7 @@ The LinuxMint folks have decided to fork an old version of GDM and
 create MDM, which stands for MDM Display Manager. I tried to package it
 for Salix and test it, but there were a lot of compilation errors. I
 started fixing them one by one and the build process continued. But then
-I realized that MDM depends on webkit for reason. They seem to have replaced
+I realized that MDM depends on webkit for some reason. They seem to have replaced
 the renderer with one based on webkit, probably borrowing code from
 newer versions of GDM.
 Plus, it seems that MDM is not even used by LinuxMint anymore, I think
@@ -50,9 +50,11 @@ I know it needs PAM. There's no way around it, so if we want to switch
 to it, we must adopt PAM. The problem is that PAM introduces a ton of
 complexity, that is not at all needed by a desktop distribution and
 that's probably the reason why Slackware hasn't included it yet either.
-I really want to avoid having to include PAM if we don't really have to.
+I really want to avoid having to include PAM if we don't really really
+really have to.
 
-What other choices are out there? There is of course LXDM, the one
+What other choices are out there? There is of course LXDM, the display
+manager 
 provided by the LXDE project. We can make this work for Salix. It has
 actually been updated to use GTK+3, so that's some progress. But still,
 the latest available release is from 2015. It seems that this one isn't
