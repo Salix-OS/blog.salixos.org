@@ -6,10 +6,19 @@
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GDM</title>
+      <link>https://blog.salixos.org/tags/gdm/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/gdm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MATE</title>
@@ -17,6 +26,15 @@
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/mate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>default apps</title>
+      <link>https://blog.salixos.org/tags/default-apps/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/default-apps/</guid>
       <description></description>
     </item>
     
@@ -86,7 +104,7 @@
     <item>
       <title>packages</title>
       <link>https://blog.salixos.org/tags/packages/</link>
-      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/packages/</guid>
       <description></description>

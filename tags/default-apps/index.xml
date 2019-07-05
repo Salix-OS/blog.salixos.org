@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>default apps on The Salix Blog</title>
+    <link>https://blog.salixos.org/tags/default-apps/</link>
+    <description>Recent content in default apps on The Salix Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.salixos.org/tags/default-apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Display Managers</title>
+      <link>https://blog.salixos.org/post/on-display-managers/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/on-display-managers/</guid>
+      <description>A Display Manager is the application that provides a graphic user interface (GUI) that is displayed at the end of the boot process and lets the user authenticate themselves by providing their username and password, before entering their preferred X11 session, for example Xfce, KDE, fluxbox, etc.
+Up until Salix 14.2, we&amp;rsquo;ve been using a very old version of GDM as the default display manager. Actually we&amp;rsquo;ve been using the same major version of GDM, which is 2.</description>
+    </item>
+    
+  </channel>
+</rss>
