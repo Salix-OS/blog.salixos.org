@@ -7,6 +7,8 @@ enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
 
+rssLimit = 20
+
 preserveTaxonomyNames = true
 hasCJKLanguage = false     # has chinese/japanese/korean ?
 paginate = 5
