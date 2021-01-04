@@ -1,6 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="https://blog.salixos.org/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://blog.salixos.org/post/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/post/preparing-for-15.0/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/default-apps/</loc>
+    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/gdm/</loc>
+    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
   
   <url>
     <loc>https://blog.salixos.org/post/on-display-managers/</loc>
@@ -10,7 +44,35 @@
   </url>
   
   <url>
+    <loc>https://blog.salixos.org/tags/packages/</loc>
+    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/</loc>
+    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/forums/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/post/spam-in-the-forums/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/website/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,8 +93,29 @@
   </url>
   
   <url>
+    <loc>https://blog.salixos.org/tags/repositories/</loc>
+    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/slackbuilds/</loc>
+    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/post/our-sbo-mirrors/</loc>
     <lastmod>2014-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/mate/</loc>
+    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,6 +128,13 @@
   </url>
   
   <url>
+    <loc>https://blog.salixos.org/tags/guide/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/post/new-startup-guide/</loc>
     <lastmod>2014-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,8 +142,57 @@
   </url>
   
   <url>
+    <loc>https://blog.salixos.org/tags/txt2tags/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/iso/</loc>
+    <lastmod>2014-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/kernel/</loc>
+    <lastmod>2014-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/post/kernel-decisions/</loc>
     <lastmod>2014-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/gksu/</loc>
+    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/gnsu/</loc>
+    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/ktsuss/</loc>
+    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/shadow/</loc>
+    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -73,7 +212,21 @@
   </url>
   
   <url>
+    <loc>https://blog.salixos.org/tags/slackware/</loc>
+    <lastmod>2013-10-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/post/new-website-design/</loc>
+    <lastmod>2013-10-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/pelican/</loc>
     <lastmod>2013-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -82,154 +235,7 @@
   <url>
     <loc>https://blog.salixos.org/categories/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/gdm/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/mate/</loc>
-    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/post/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/default-apps/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/forums/</loc>
-    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/gksu/</loc>
-    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/gnsu/</loc>
-    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/guide/</loc>
-    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/iso/</loc>
-    <lastmod>2014-01-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/kernel/</loc>
-    <lastmod>2014-01-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/ktsuss/</loc>
-    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/packages/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/pelican/</loc>
-    <lastmod>2013-10-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/repositories/</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/shadow/</loc>
-    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/slackbuilds/</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/slackware/</loc>
-    <lastmod>2013-10-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/txt2tags/</loc>
-    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/website/</loc>
-    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

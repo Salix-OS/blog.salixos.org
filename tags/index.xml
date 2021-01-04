@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The Salix Blog</title>
@@ -6,10 +6,15 @@
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>default apps</title>
+      <link>https://blog.salixos.org/tags/default-apps/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/default-apps/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GDM</title>
@@ -21,20 +26,11 @@
     </item>
     
     <item>
-      <title>MATE</title>
-      <link>https://blog.salixos.org/tags/mate/</link>
-      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/mate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>default apps</title>
-      <link>https://blog.salixos.org/tags/default-apps/</link>
+      <title>packages</title>
+      <link>https://blog.salixos.org/tags/packages/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/tags/default-apps/</guid>
+      <guid>https://blog.salixos.org/tags/packages/</guid>
       <description></description>
     </item>
     
@@ -48,20 +44,38 @@
     </item>
     
     <item>
-      <title>gksu</title>
-      <link>https://blog.salixos.org/tags/gksu/</link>
-      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <title>website</title>
+      <link>https://blog.salixos.org/tags/website/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/tags/gksu/</guid>
+      <guid>https://blog.salixos.org/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gnsu</title>
-      <link>https://blog.salixos.org/tags/gnsu/</link>
-      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <title>repositories</title>
+      <link>https://blog.salixos.org/tags/repositories/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/tags/gnsu/</guid>
+      <guid>https://blog.salixos.org/tags/repositories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slackbuilds</title>
+      <link>https://blog.salixos.org/tags/slackbuilds/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/slackbuilds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MATE</title>
+      <link>https://blog.salixos.org/tags/mate/</link>
+      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/mate/</guid>
       <description></description>
     </item>
     
@@ -71,6 +85,15 @@
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>txt2tags</title>
+      <link>https://blog.salixos.org/tags/txt2tags/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/txt2tags/</guid>
       <description></description>
     </item>
     
@@ -93,38 +116,29 @@
     </item>
     
     <item>
+      <title>gksu</title>
+      <link>https://blog.salixos.org/tags/gksu/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/gksu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnsu</title>
+      <link>https://blog.salixos.org/tags/gnsu/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/gnsu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ktsuss</title>
       <link>https://blog.salixos.org/tags/ktsuss/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/ktsuss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>packages</title>
-      <link>https://blog.salixos.org/tags/packages/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/packages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pelican</title>
-      <link>https://blog.salixos.org/tags/pelican/</link>
-      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/pelican/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>repositories</title>
-      <link>https://blog.salixos.org/tags/repositories/</link>
-      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/repositories/</guid>
       <description></description>
     </item>
     
@@ -138,15 +152,6 @@
     </item>
     
     <item>
-      <title>slackbuilds</title>
-      <link>https://blog.salixos.org/tags/slackbuilds/</link>
-      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/slackbuilds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>slackware</title>
       <link>https://blog.salixos.org/tags/slackware/</link>
       <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
@@ -156,20 +161,11 @@
     </item>
     
     <item>
-      <title>txt2tags</title>
-      <link>https://blog.salixos.org/tags/txt2tags/</link>
-      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      <title>pelican</title>
+      <link>https://blog.salixos.org/tags/pelican/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.salixos.org/tags/txt2tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>website</title>
-      <link>https://blog.salixos.org/tags/website/</link>
-      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/website/</guid>
+      <guid>https://blog.salixos.org/tags/pelican/</guid>
       <description></description>
     </item>
     

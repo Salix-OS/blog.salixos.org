@@ -16,21 +16,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="George Vlahavas" />
-  <meta name="description" content="MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&amp;rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&amp;rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14." />
-
-  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+<meta name="author" content="George Vlahavas" /><meta name="description" content="MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&amp;rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&amp;rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14." /><meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.49.2" />
+<meta name="generator" content="Hugo 0.80.0 with theme even" />
 
 
 <link rel="canonical" href="https://blog.salixos.org/post/mate-is-around-the-corner/" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,28 +35,20 @@
 
 
 
-
-
-
-
-<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/sass/main.min.a95cd53120267a4ea4840919adcee2e7bd4bfb3176c355df25fd5926886525a1.css" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
 
 
 <meta property="og:title" content="MATE is around the corner" />
 <meta property="og:description" content="MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.salixos.org/post/mate-is-around-the-corner/" /><meta property="article:published_time" content="2014-03-26T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2014-03-26T00:00:00&#43;00:00"/>
-
+<meta property="og:url" content="https://blog.salixos.org/post/mate-is-around-the-corner/" />
+<meta property="article:published_time" content="2014-03-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-03-26T00:00:00+00:00" />
 <meta itemprop="name" content="MATE is around the corner">
 <meta itemprop="description" content="MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14.">
-
-
-<meta itemprop="datePublished" content="2014-03-26T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2014-03-26T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2014-03-26T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2014-03-26T00:00:00+00:00" />
 <meta itemprop="wordCount" content="743">
 
 
@@ -133,15 +121,8 @@
         <span class="post-time"> 2014-03-26 </span>
         
         
-        
       </div>
     </header>
-
-    
-    
-
-    
-    
 
     
     <div class="post-content">
@@ -152,7 +133,6 @@ long. The good news is that I think I&rsquo;m almost done! So, expect MATE 1.8
 packages to hit the repos sometime in the following days. We didn&rsquo;t have
 any MATE release for Salix 14.0, but it looks like we are going to have
 one for 14.1!</p>
-
 <p>We have already included some MATE 1.6 packages in our repositories and
 we have used those for our Xfce release as well, but a complete MATE 1.6
 desktop was not included. The packages that we already had included were
@@ -165,21 +145,18 @@ to their 1.8 counterpart in the next days. The upgrade should be
 competely harmless, so nothing to worry about. In fact I had already
 patched the 1.6 packages with some fixes from the 1.8 branch, so the
 most important changes were already there.</p>
-
 <p>I had considered using packages from the
 <a href="http://mateslackbuilds.github.io/">MATE SlackBuilds</a>
 project, but
 only very briefly. While the guys there have done a good work on their
 packages, I realized that in most cases, we had to built our own
 packages.</p>
-
 <p>Some of the packages from the MATE SlackBuilds project were built using
 dependencies that we would never have in Salix, at least not by default.
 Several packages were built with support for NetworkManager, which we do
 not ship by default. There was even a case where one package was built
 using GTK+ (version 1, that is ancient!) which would definitely not work
 for us.</p>
-
 <p>One other thing that I didn&rsquo;t like at all about these packages, was that
 help wouldn&rsquo;t work at all (used from the Help menu or using the
 respective buttons in any application). It would just show an
@@ -193,7 +170,6 @@ at all. Now, I also don&rsquo;t care about yelp though and mostly everything
 that comes from GNOME. So what I did was that I patched every single
 MATE application/plugin and pointed the help menu items/buttons to the
 MATE webpage. Works a lot better than any error message.</p>
-
 <p>And then there was the default settings issue. The packages we use,
 should include default configuration that will fit with Salix,
 including panel location, panel applets selection, icon theme used,
@@ -204,7 +180,6 @@ kind of confusing in my opinion. So, I edited the default menu
 specifications to keep only the latter and have all &ldquo;System&rdquo;
 applications in one place. Also, I &ldquo;had&rdquo; to change the default menu
 icon to the Salix icon.</p>
-
 <p>Once again, like we did with the MATE 1.2 packages that we offered with
 Salix 13.37 and the MATE 1.4 packages that we offered for Salix 14.0, we
 are not building the complete set of MATE packages. We are building all
@@ -216,44 +191,28 @@ already have better alternatives for them and we wouldn&rsquo;t use them
 anyway. For example Geany, our default text editor/IDE that is also
 part of the default Xfce release is a much better editor than Pluma
 and Viewnior a better viewer than Eye of MATE.</p>
-
 <p>Once packages show up in the repositories, you should be able to install
 the MATE desktop using:</p>
-
 <pre><code>sudo slapt-get --install-set mate
 </code></pre>
-
 <p>and a beta release shouldn&rsquo;t be that far off.</p>
-
 <p>Here&rsquo;s a screenshot in case you&rsquo;re wondering what it looks like&hellip;</p>
-
-<p><img src="../../img/mate-14.1.png" alt="MATE Desktop for Salix 14.1" /></p>
+<p><img src="../../img/mate-14.1.png" alt="MATE Desktop for Salix 14.1"></p>
 
     </div>
 
     
-    
-
-    
-    
-
-    <footer class="post-footer">
+<footer class="post-footer">
       <div class="post-tags">
-          
           <a href="/tags/mate/">MATE</a>
-          
-        </div>
-
-      
+          </div>
       <nav class="post-nav">
-        
-          <a class="prev" href="/post/our-sbo-mirrors/">
+        <a class="prev" href="/post/our-sbo-mirrors/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">Our SBo mirrors</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        
-          <a class="next" href="/post/new-startup-guide/">
+        <a class="next" href="/post/new-startup-guide/">
             <span class="next-text nav-default">New Startup Guide</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
@@ -263,6 +222,7 @@ the MATE desktop using:</p>
   </article>
         </div>
         
+
   
 
   
@@ -282,7 +242,7 @@ the MATE desktop using:</p>
     &copy; 
     
       2013 - 
-    2019
+    2021
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
@@ -296,13 +256,13 @@ the MATE desktop using:</p>
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 
 
-<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
 
 
 

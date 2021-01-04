@@ -16,22 +16,19 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Salix GNU/Linux" />
-  <meta name="description" content="Hugo theme even example site." />
-  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+<meta name="author" content="Salix GNU/Linux" /><meta name="description" content="The Salix Blog" /><meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.49.2" />
+<meta name="generator" content="Hugo 0.80.0 with theme even" />
 
 
 <link rel="canonical" href="https://blog.salixos.org/" />
-<link href="https://blog.salixos.org/index.xml" rel="alternate" type="application/rss+xml" title="The Salix Blog" />
+  <link href="https://blog.salixos.org/index.xml" rel="alternate" type="application/rss+xml" title="The Salix Blog" />
   <link href="https://blog.salixos.org/index.xml" rel="feed" type="application/rss+xml" title="The Salix Blog" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,28 +37,20 @@
 
 
 
-
-
-
-
-<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/sass/main.min.a95cd53120267a4ea4840919adcee2e7bd4bfb3176c355df25fd5926886525a1.css" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
-
-
 <meta property="og:title" content="The Salix Blog" />
-<meta property="og:description" content="Hugo theme even example site." />
+<meta property="og:description" content="The Salix Blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://blog.salixos.org/" />
-<meta property="og:updated_time" content="2014-03-26T00:00:00&#43;00:00"/>
-
+<meta property="og:updated_time" content="2021-01-04T00:00:00+00:00" />
 <meta itemprop="name" content="The Salix Blog">
-<meta itemprop="description" content="Hugo theme even example site.">
-
+<meta itemprop="description" content="The Salix Blog">
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Salix Blog"/>
-<meta name="twitter:description" content="Hugo theme even example site."/>
+<meta name="twitter:description" content="The Salix Blog"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -117,17 +106,32 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  <section id="posts" class="posts">
-    
-    
-    
-      <article class="post">
+          <section id="posts" class="posts">
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/our-sbo-mirrors/">Our SBo mirrors</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2014-10-09 </span>
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      We have been mirroring the slackbuilds.org (SBo) repository and at the same time applying slight changes to it for some time now. These changes are essential to Salix, for a few reasons.
+First of all, the SBo maintainers have decided that they will only list SlackBuild dependencies only if these are not part of a Slackware full installation. While this may be a decision that is fine for Slackware itself, since they don&rsquo;t offer any kind of support for users doing anything other than a full Slackware installation, it&rsquo;s generally not good for Salix, since a Salix installation of any edition, is slimmer than a full Slackware installation, by far.
+    </div>
+    <div class="read-more">
+      <a href="/post/our-sbo-mirrors/" class="read-more-link">Read more...</a>
+    </div>
+  </div>
+</article>
+
+    <article class="post">
   <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/mate-is-around-the-corner/">MATE is around the corner</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2014-03-26 </span>
-      
       
     </div>
   </header>
@@ -137,18 +141,16 @@
       MATE 1.8 has been released in source code form by its developers about 3 weeks ago and I have been working on packages for Salix for about as long. The good news is that I think I&rsquo;m almost done! So, expect MATE 1.8 packages to hit the repos sometime in the following days. We didn&rsquo;t have any MATE release for Salix 14.0, but it looks like we are going to have one for 14.
     </div>
     <div class="read-more">
-      <a href="/post/mate-is-around-the-corner/" class="read-more-link">Read more..</a>
+      <a href="/post/mate-is-around-the-corner/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
-    
-      <article class="post">
+    <article class="post">
   <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/new-startup-guide/">New Startup Guide</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2014-02-24 </span>
-      
       
     </div>
   </header>
@@ -159,18 +161,16 @@
 The startup guide was left with no updates since the 13.37 release, so it was getting a bit old. It was still mostly OK, but there were things that were out of date.
     </div>
     <div class="read-more">
-      <a href="/post/new-startup-guide/" class="read-more-link">Read more..</a>
+      <a href="/post/new-startup-guide/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
-    
-      <article class="post">
+    <article class="post">
   <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/kernel-decisions/">Kernel decisions</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2014-01-14 </span>
-      
       
     </div>
   </header>
@@ -181,18 +181,16 @@ The startup guide was left with no updates since the 13.37 release, so it was ge
 First of all, 32-bit Slackware ships with two different kernels. The first one, which is the most used of the two is an i686 optimized, PAE enabled, SMP capable kernel. The second one is an i486 optimized, non-PAE, non-SMP capable kernel.
     </div>
     <div class="read-more">
-      <a href="/post/kernel-decisions/" class="read-more-link">Read more..</a>
+      <a href="/post/kernel-decisions/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
-    
-      <article class="post">
+    <article class="post">
   <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/the-gksu-problem/">The gksu problem</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2013-11-13 </span>
-      
       
     </div>
   </header>
@@ -202,49 +200,23 @@ First of all, 32-bit Slackware ships with two different kernels. The first one, 
       We had a real problem with ktsuss/gksu while developing for 14.1. It seems that newer versions of the shadow package, and certainly the one that is included in Slackware 14.1, don&rsquo;t allow su to be executed in any other way except directly from a terminal. That means that su cannot be executed as a subprocess from inside ktsuss or the original gksu anymore and these become effectively useless. This is a critical issue for us, because if we don&rsquo;t fix it, almost nothing in the System part of the menu would actually work.
     </div>
     <div class="read-more">
-      <a href="/post/the-gksu-problem/" class="read-more-link">Read more..</a>
+      <a href="/post/the-gksu-problem/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/how-much-of-slackware-is-in-salix/">How much of Slackware is in Salix</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2013-10-30 </span>
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      That is a question that I had in my mind for a while. At some point I had also done the actual counting, so I had an idea, but I never wrote anything down.
-There are many people that believe that a derivative distribution only just leeches their parent distribution, maybe changing the default wallpaper or a couple of settings here and there and making a release. I know for a fact that some people that have never tried Salix (or have tried Salix but never Slackware itself) even think the same for Salix.
-    </div>
-    <div class="read-more">
-      <a href="/post/how-much-of-slackware-is-in-salix/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-  </section>
+    </section>
   
   <nav class="pagination">
-    
-      <a class="prev" href="/">
+    <a class="prev" href="/">
         <i class="iconfont icon-left"></i>
         <span class="prev-text">Prev</span>
       </a>
-    
-      <a class="next" href="/page/3/">
+    <a class="next" href="/page/3/">
         <span class="next-text">Next</span>
         <i class="iconfont icon-right"></i>
       </a>
   </nav>
-
         </div>
         
 
@@ -263,7 +235,7 @@ There are many people that believe that a derivative distribution only just leec
     &copy; 
     
       2013 - 
-    2019
+    2021
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
@@ -277,13 +249,13 @@ There are many people that believe that a derivative distribution only just leec
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 
 
-<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
 
 
 

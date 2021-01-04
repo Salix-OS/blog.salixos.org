@@ -16,22 +16,18 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="George Vlahavas" />
-  <meta name="description" content="A Display Manager is the application that provides a graphic user interface (GUI) that is displayed at the end of the boot process and lets the user authenticate themselves by providing their username and password, before entering their preferred X11 session, for example Xfce, KDE, fluxbox, etc.
-Up until Salix 14.2, we&amp;rsquo;ve been using a very old version of GDM as the default display manager. Actually we&amp;rsquo;ve been using the same major version of GDM, which is 2." />
-
-  <meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+<meta name="author" content="George Vlahavas" /><meta name="description" content="A Display Manager is the application that provides a graphic user interface (GUI) that is displayed at the end of the boot process and lets the user authenticate themselves by providing their username and password, before entering their preferred X11 session, for example Xfce, KDE, fluxbox, etc.
+Up until Salix 14.2, we&amp;rsquo;ve been using a very old version of GDM as the default display manager. Actually we&amp;rsquo;ve been using the same major version of GDM, which is 2." /><meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.49.2" />
+<meta name="generator" content="Hugo 0.80.0 with theme even" />
 
 
 <link rel="canonical" href="https://blog.salixos.org/post/on-display-managers/" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,30 +36,22 @@ Up until Salix 14.2, we&amp;rsquo;ve been using a very old version of GDM as the
 
 
 
-
-
-
-
-<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/sass/main.min.a95cd53120267a4ea4840919adcee2e7bd4bfb3176c355df25fd5926886525a1.css" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
 
 
 <meta property="og:title" content="On Display Managers" />
 <meta property="og:description" content="A Display Manager is the application that provides a graphic user interface (GUI) that is displayed at the end of the boot process and lets the user authenticate themselves by providing their username and password, before entering their preferred X11 session, for example Xfce, KDE, fluxbox, etc.
 Up until Salix 14.2, we&rsquo;ve been using a very old version of GDM as the default display manager. Actually we&rsquo;ve been using the same major version of GDM, which is 2." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.salixos.org/post/on-display-managers/" /><meta property="article:published_time" content="2019-07-05T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-07-05T00:00:00&#43;00:00"/>
-
+<meta property="og:url" content="https://blog.salixos.org/post/on-display-managers/" />
+<meta property="article:published_time" content="2019-07-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-07-05T00:00:00+00:00" />
 <meta itemprop="name" content="On Display Managers">
 <meta itemprop="description" content="A Display Manager is the application that provides a graphic user interface (GUI) that is displayed at the end of the boot process and lets the user authenticate themselves by providing their username and password, before entering their preferred X11 session, for example Xfce, KDE, fluxbox, etc.
 Up until Salix 14.2, we&rsquo;ve been using a very old version of GDM as the default display manager. Actually we&rsquo;ve been using the same major version of GDM, which is 2.">
-
-
-<meta itemprop="datePublished" content="2019-07-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-07-05T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2019-07-05T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-07-05T00:00:00+00:00" />
 <meta itemprop="wordCount" content="1092">
 
 
@@ -137,15 +125,8 @@ Up until Salix 14.2, we&rsquo;ve been using a very old version of GDM as the def
         <span class="post-time"> 2019-07-05 </span>
         
         
-        
       </div>
     </header>
-
-    
-    
-
-    
-    
 
     
     <div class="post-content">
@@ -154,7 +135,6 @@ interface (GUI) that is displayed at the end of the boot process and
 lets the user authenticate themselves by providing their username and
 password, before entering their preferred X11 session, for example
 Xfce, KDE, fluxbox, etc.</p>
-
 <p>Up until Salix 14.2, we&rsquo;ve been using a very old version of GDM as the
 default display manager. Actually we&rsquo;ve been using the same major
 version of GDM, which is 2.20.x since the first release of Salix, 10
@@ -162,7 +142,6 @@ years ago! The version that we have been using since 2010, is 2.20.11,
 which is the last release in that branch.  Thankfully, it doesn&rsquo;t
 seem to have any major bugs. But still, hanging on to a very old
 and unmaintained release such as this, obviously has its problems.</p>
-
 <p>So why don&rsquo;t we just use a newer version of GDM? Well, since GDM 2.22,
 the Gnome devs decided to integrate it further with their entire
 desktop, so it depends on gnome-panel. The gnome-panel package in turn,
@@ -173,9 +152,7 @@ won&rsquo;t work for Salix. To add to that, even newer versions of GDM, also
 require PAM and Systemd. While there is no other reason to do it, we
 could possibly include PAM, but Systemd is completely out of the
 question. So, newer versions of GDM are definitely out.</p>
-
 <p>What about other display managers then?</p>
-
 <p>The LinuxMint folks have decided to fork an old version of GDM and
 create MDM, which stands for MDM Display Manager. I tried to package it
 for Salix and test it, but there were a lot of compilation errors. I
@@ -188,7 +165,6 @@ they probably switched to LightDM, along with almost every other Ubuntu
 derivative. So, no reason to switch from one unmaintained display
 manager that still works OK, to another unmaintained display manager,
 that we haven&rsquo;t tested and needs extra dependencies.</p>
-
 <p>So, why not just use LightDM then? It seems to be the choice by lots of
 distributions out there after all. To be honest, I haven&rsquo;t tried it, but
 I know it needs PAM. There&rsquo;s no way around it, so if we want to switch
@@ -197,7 +173,6 @@ complexity, that is not at all needed by a desktop distribution and
 that&rsquo;s probably the reason why Slackware hasn&rsquo;t included it yet either.
 I really want to avoid having to include PAM if we don&rsquo;t really really
 really have to.</p>
-
 <p>What other choices are out there? There is of course LXDM, the display
 manager
 provided by the LXDE project. We can make this work for Salix. It has
@@ -211,11 +186,9 @@ feature-rich as our old version of GDM is. There is no GUI configuration
 app and honestly, I don&rsquo;t find it as good looking as our old GDM is. So,
 if we were to swap our old GDM with LXDM, we would switch to an inferior
 option.</p>
-
 <p>Then of course there is Slim. This could work too, but is even more
 spartan than LXDM, there is also no GUI configuration app for it. What&rsquo;s
 more, it hasn&rsquo;t had a commit to its codebase since 2013.</p>
-
 <p>XDM is the standard X11 tool for the job. But apart from offering a
 dialog for the user to input his credentials, it offers no other
 functionality. Plus, it&rsquo;s ugly. Admittedly, some Slackware users
@@ -225,7 +198,6 @@ But still, although impressive, this is nothing more than a (nicely done) hack.
 There is still no GUI configuration tool, and even localization would
 probably be impossible. I can see this being a nice choice for a
 personal setup, but not as the default DM for a distribution.</p>
-
 <p>WDM is another long unmaintained display manager, that is a fork of a
 much earlier XDM release. It is written using the WINGs toolkit, so it
 would look a little out of place in Salix.  Well, not if we had a
@@ -242,14 +214,12 @@ or a window manager that the WDM developers weren&rsquo;t aware of. Adding
 that functionality myself would be more than I bargained for. Oh, did I
 mention that it has been completely unmaintained for almost 10
 years now?</p>
-
 <p>KDM, from the KDE project, is one that was used as the default display
 manager in Slackware for ages. It has now been superseded by SSDM.
 However, SSDM, as KDM before it, requires Qt and I wouldn&rsquo;t want to add
 this huge dependency on a default installation. The qt5 package in 14.2
 is about 55MB. That&rsquo;s too much additional space for a distribution that
 doesn&rsquo;t include any other Qt applications by default.</p>
-
 <p>So where does all this leave us? I&rsquo;m not sure. We seem to be out of
 options for the next release, whenever that will be. Anything we choose
 to replace the old GDM package, will be in one way or another, inferior.
@@ -259,27 +229,19 @@ crossed my mind, but I don&rsquo;t think I have the time to do it.</p>
     </div>
 
     
-    
-
-    
-    
-
-    <footer class="post-footer">
+<footer class="post-footer">
       <div class="post-tags">
-          
           <a href="/tags/packages/">packages</a>
-          
           <a href="/tags/gdm/">GDM</a>
-          
           <a href="/tags/default-apps/">default apps</a>
-          
-        </div>
-
-      
+          </div>
       <nav class="post-nav">
-        
-        
-          <a class="next" href="/post/spam-in-the-forums/">
+        <a class="prev" href="/post/preparing-for-15.0/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Preparing for 15.0</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/spam-in-the-forums/">
             <span class="next-text nav-default">Spam in the Forums</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
@@ -289,6 +251,7 @@ crossed my mind, but I don&rsquo;t think I have the time to do it.</p>
   </article>
         </div>
         
+
   
 
   
@@ -308,7 +271,7 @@ crossed my mind, but I don&rsquo;t think I have the time to do it.</p>
     &copy; 
     
       2013 - 
-    2019
+    2021
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
@@ -322,13 +285,13 @@ crossed my mind, but I don&rsquo;t think I have the time to do it.</p>
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 
 
-<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
 
 
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shadow on The Salix Blog</title>
@@ -6,11 +6,7 @@
     <description>Recent content in shadow on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Nov 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://blog.salixos.org/tags/shadow/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 13 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/shadow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The gksu problem</title>
       <link>https://blog.salixos.org/post/the-gksu-problem/</link>
