@@ -1,6 +1,9 @@
 ---
 title: "Preparing for 15.0"
 date: 2021-01-04
+draft: false
+tags: ["slackware", "repositories", "gtk", "salix-next"]
+author: "George Vlahavas"
 ---
 
 It seems like, finally, the pieces are being put in place for the next
