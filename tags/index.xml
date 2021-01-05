@@ -6,7 +6,43 @@
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gtk</title>
+      <link>https://blog.salixos.org/tags/gtk/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/gtk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repositories</title>
+      <link>https://blog.salixos.org/tags/repositories/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/repositories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>salix-next</title>
+      <link>https://blog.salixos.org/tags/salix-next/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/salix-next/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slackware</title>
+      <link>https://blog.salixos.org/tags/slackware/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/slackware/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>default apps</title>
       <link>https://blog.salixos.org/tags/default-apps/</link>
@@ -49,15 +85,6 @@
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>repositories</title>
-      <link>https://blog.salixos.org/tags/repositories/</link>
-      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/repositories/</guid>
       <description></description>
     </item>
     
@@ -148,15 +175,6 @@
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/shadow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>slackware</title>
-      <link>https://blog.salixos.org/tags/slackware/</link>
-      <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/slackware/</guid>
       <description></description>
     </item>
     
