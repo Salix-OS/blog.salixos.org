@@ -20,7 +20,7 @@ Seeing how Slackware current seems to be stabilizing, I think it's good
 time for us to start working on our next release too. Expect things to
 start getting interesting again. Some have already noticed that `15.0`
 and `slackware-15.0` directories have appeared in our repository mirrors
-and emailed me asking about them. Obviously, they are no ready yet,
+and emailed me asking about them. Obviously, they are not ready yet,
 especially the Salix `15.0` repository, but they are the groundwork on
 which our next release will be based.
 
