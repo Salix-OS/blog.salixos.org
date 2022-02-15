@@ -6,7 +6,20 @@
     <description>Recent content in slackware on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 14:36:25 +0200</lastBuildDate><atom:link href="https://blog.salixos.org/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are We There Yet?</title>
+      <link>https://blog.salixos.org/post/are-we-there-yet/</link>
+      <pubDate>Tue, 15 Feb 2022 14:36:25 +0200</pubDate>
+      
+      <guid>https://blog.salixos.org/post/are-we-there-yet/</guid>
+      <description>Short answer: No.
+Somewhat longer answer: Not yet, but we&amp;rsquo;re getting there. There&amp;rsquo;s still lot&amp;rsquo;s of things to do, but there will be an alpha release soon (hopefully).
+Really long answer:
+It has been almost two weeks now that Slackare 15.0 has been released (yay!) and there are now regular inquiries on IRC and in the forums concerning the release of Salix 15.0.
+So, no, Salix 15.0 is not ready yet.</description>
+    </item>
+    
     <item>
       <title>Preparing for 15.0</title>
       <link>https://blog.salixos.org/post/preparing-for-15.0/</link>
