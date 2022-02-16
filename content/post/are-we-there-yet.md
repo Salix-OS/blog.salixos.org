@@ -29,7 +29,7 @@ time to adapt, right? Well, not quite. Until the last couple of weeks
 before Slackware 15.0 was released, nobody really had any idea of when
 that would happen. Even then, it was only just a feeling of "it's
 getting close". We've had that feeling before. More than a year ago,
-[it felt like Slackware current was stabilizing](post/preparing-for-15.0)
+[it felt like Slackware current was stabilizing](/post/preparing-for-15.0)
 and perhaps 15.0 was not that far off, but I was completely wrong.
 Slackware current had a few more breaking changes from that point,
 rendering most of our work on our repositories until then obsolete.
