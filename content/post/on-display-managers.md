@@ -102,8 +102,8 @@ mention that it has been completely unmaintained for almost 10
 years now?
 
 KDM, from the KDE project, is one that was used as the default display
-manager in Slackware for ages. It has now been superseded by SSDM.
-However, SSDM, as KDM before it, requires Qt and I wouldn't want to add
+manager in Slackware for ages. It has now been superseded by SDDM.
+However, SDDM, as KDM before it, requires Qt and I wouldn't want to add
 this huge dependency on a default installation. The qt5 package in 14.2
 is about 55MB. That's too much additional space for a distribution that
 doesn't include any other Qt applications by default.
