@@ -8,6 +8,9 @@ build:
 	git worktree add -B master public origin/master
 	rm -rf public/*
 	hugo
+	cd public && \
+	rm -f index.xml && \
+	ln -s post/index.xml index.xml
 
 publish: build
 	cd public && \
