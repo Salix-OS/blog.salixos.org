@@ -8,6 +8,7 @@ build:
 	git worktree add -B master public origin/master
 	rm -rf public/*
 	hugo-0.111.3
+	cp README.md public/
 	cd public && \
 	rm -f index.xml && \
 	ln -s post/index.xml index.xml
