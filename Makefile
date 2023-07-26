@@ -7,7 +7,7 @@ build:
 	rm -rf .git/worktrees/public/
 	git worktree add -B master public origin/master
 	rm -rf public/*
-	hugo
+	hugo-0.111.3
 	cd public && \
 	rm -f index.xml && \
 	ln -s post/index.xml index.xml
@@ -19,7 +19,7 @@ publish: build
 	git push -u origin master
 
 serve:
-	hugo serve --watch --buildDrafts
+	hugo-0.111.3 serve --watch --buildDrafts
 
 init:
 	touch README.md
