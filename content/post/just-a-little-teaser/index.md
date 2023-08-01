@@ -9,4 +9,4 @@ I've mentioned problems with the installer in my
 Well, they're solved now. Here's a little something to get you mildly
 excited. It's the LightDM login screen:
 
-![LightDM login screen](/images/lightdm_salix15.0.png)
+![LightDM login screen](lightdm_salix15.0.png)
