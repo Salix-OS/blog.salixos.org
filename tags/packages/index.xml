@@ -6,7 +6,16 @@
     <description>Recent content in packages on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing the default text editor</title>
+      <link>https://blog.salixos.org/post/choosing-the-default-text-editor/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/choosing-the-default-text-editor/</guid>
+      <description>Even during the development phase of Salix 15.0, more than a year ago, I was getting questions and comments about which the default (GUI) text editor would be. I still get those questions in my inbox. So, Salix 15.0 came with Xfce 4.16. And Xfce&amp;rsquo;s default text editor is Mousepad, but we elected not to include it in the default app selection for our release. Instead, we included L3afpad, which is essentially a GTK3 port of Leafpad, the default editor in all our previous releases, including at least Salix 14.</description>
+    </item>
+    
     <item>
       <title>On Display Managers</title>
       <link>https://blog.salixos.org/post/on-display-managers/</link>

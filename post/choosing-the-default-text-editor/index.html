@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Choosing the default text editor - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" /><meta name="description" content="Even during the development phase of Salix 15.0, more than a year ago, I was getting questions and comments about which the default (GUI) text editor would be. I still get those questions in my inbox. So, Salix 15.0 came with Xfce 4.16. And Xfce&amp;rsquo;s default text editor is Mousepad, but we elected not to include it in the default app selection for our release. Instead, we included L3afpad, which is essentially a GTK3 port of Leafpad, the default editor in all our previous releases, including at least Salix 14." /><meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.111.3 with theme even" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/choosing-the-default-text-editor/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.ce647e693b48506466986bd585ce55f2fe27926f45bc33865a43a397d31ab86c.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Choosing the default text editor" />
+<meta property="og:description" content="Even during the development phase of Salix 15.0, more than a year ago, I was getting questions and comments about which the default (GUI) text editor would be. I still get those questions in my inbox. So, Salix 15.0 came with Xfce 4.16. And Xfce&rsquo;s default text editor is Mousepad, but we elected not to include it in the default app selection for our release. Instead, we included L3afpad, which is essentially a GTK3 port of Leafpad, the default editor in all our previous releases, including at least Salix 14." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/choosing-the-default-text-editor/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-08-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-04T00:00:00+00:00" />
+<meta itemprop="name" content="Choosing the default text editor">
+<meta itemprop="description" content="Even during the development phase of Salix 15.0, more than a year ago, I was getting questions and comments about which the default (GUI) text editor would be. I still get those questions in my inbox. So, Salix 15.0 came with Xfce 4.16. And Xfce&rsquo;s default text editor is Mousepad, but we elected not to include it in the default app selection for our release. Instead, we included L3afpad, which is essentially a GTK3 port of Leafpad, the default editor in all our previous releases, including at least Salix 14."><meta itemprop="datePublished" content="2023-08-04T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-08-04T00:00:00+00:00" />
+<meta itemprop="wordCount" content="3227">
+<meta itemprop="keywords" content="packages,default apps,bechmarks," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Choosing the default text editor"/>
+<meta name="twitter:description" content="Even during the development phase of Salix 15.0, more than a year ago, I was getting questions and comments about which the default (GUI) text editor would be. I still get those questions in my inbox. So, Salix 15.0 came with Xfce 4.16. And Xfce&rsquo;s default text editor is Mousepad, but we elected not to include it in the default app selection for our release. Instead, we included L3afpad, which is essentially a GTK3 port of Leafpad, the default editor in all our previous releases, including at least Salix 14."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Choosing the default text editor</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2023-08-04 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>Even during the development phase of Salix 15.0, more than a year ago, I was
+getting questions and comments about which the default (GUI) text editor would
+be. I still get those questions in my inbox. So, Salix 15.0 came with Xfce
+4.16. And Xfce&rsquo;s default text editor is Mousepad, but we elected not to include
+it in the default app selection for our release. Instead, we included
+<a href="https://github.com/stevenhoneyman/l3afpad">L3afpad</a>, which is essentially a
+GTK3 port of
+<a href="http://tarot.freeshell.org/leafpad/">Leafpad</a>, the default editor in all our
+previous releases, including at least Salix 14.2, 14.1 and 14.0, going back
+more than 10 years now.</p>
+<p>In all honesty, I don&rsquo;t remember the exact details why we went with Leafpad
+back then. I vaguely remember there was a bug with Mousepad that we didn&rsquo;t
+like. But I do remember that we had some extensive talks about it. And I
+remember that one of the reasons why we had chosen Leafpad was its speed. It
+started up faster than Mousepad, without having any less features, even if
+that difference in startup speed was only very small.</p>
+<p>Now, Xfce 4.16 (and newer) is based on GTK3 and Leafpad being a GTK2 app, it
+wouldn&rsquo;t fit that well in our default installation, which includes only GTK3
+apps (with the exception of GIMP, which doesn&rsquo;t have a GTK3 release yet).
+So, we had to choose a GTK3 text editor and Mousepad was certainly an option
+again.</p>
+<p>Xfce 4.16, which was the latest Xfce version when Salix 15.0 was originally
+released, came with Mousepad 0.5.8. Unfortunately, the Mousepad developers
+had decided that they should move to using CSD (Client Side Decorations)
+exclusively, following the example of GNOME. I find the idea of CSD appaling.
+There is already a lot of critisism about them online, I won&rsquo;t go into
+details here, but they are generally critisized for lack of consistency across
+apps, no theming support, wasted screen space, reduced window management
+control, fragmentation in development, accessibility problems, performance
+issues and integration. Maybe that&rsquo;s a topic for another post, but the point
+is that they are a terrible idea born within GNOME and forced on the Linux
+community.</p>
+<p>In Salix 15.0, we decided to remove any CSD using a small module called
+gtk3-nocsd. This removes CSD from windows and allows the window manager to
+work as usual. It&rsquo;s a hack, but it works. Unfortunately, with Mousepad 0.5.8
+it doesn&rsquo;t work that well. The result is an ugly, empty, horizontal grey bar
+at the top of the window, between the top bar provided by the window manager and
+the window menu, as shown in the next screenshot.</p>
+<p><img src="mousepad-0.5.8.png" alt="mousepad 0.5.8 showing an ugly bar at the top" title="mousepad 0.5.8"></p>
+<p>This just wasted screen estate. And there was no way to remove it. There was no
+way we would include it as a default application looking like that. L3afpad
+presented itself as a GTK3 port of Leafpad and we saw that it would fit great
+with our Xfce desktop. What we need is a simple text editor that would launch
+really fast, that can be used for simple editing tasks and note keeping and
+generally be out of the way. For more complex editing tasks, syntax
+highlighting and programming, we have <a href="https://www.geany.org/">Geany</a>, which is
+very powerful, while also remaining lightweight. But for simple editing tasks
+and note keeping, we need an editor that is even more lightweight than Geany.
+L3afpad was an almost perfect match for what we wanted, although a major
+drawback was that it seemed that its development has stalled. There have been
+no new commits in its repository since February 2022. But there were no major
+bugs, so there was little risk in using it, indeed it works great!</p>
+<p>And then, after Salix 15.0 was released, Xfce 4.18 came along and it included
+Mousepad 0.5.10. For those that haven&rsquo;t realized, we have
+<a href="https://forum.salixos.org/viewtopic.php?f=17&amp;t=8521">repositories for Xfce 4.18</a>
+and all Salix 15.0 users are welcome to use them as we thing Xfce 4.18 is
+a considerable upgrade to Xfce 4.16. Upgrading is completely painless and it
+only involves adding a single repository in your repository sources. Having a
+new Salix release with Xfce 4.18 has been a thought since last December, but
+considering how easy it is to upgrade a new installation from 4.16, I have
+always pushed it to the back of my TODO list.</p>
+<p>Anyway, with Mousepad 0.5.10, it seems that its developers listened to a big
+part of the community and decided to make CSD optional. Now, if you disable CSD,
+it looks like this:</p>
+<p><img src="mousepad-0.5.10.png" alt="mousepad 0.5.10 showing how it should look" title="mousepad 0.5.10"></p>
+<p>And just like that, Mousepad is a valid option as a default application again.</p>
+<p>Probably the major deciding factor on which text editor to use as default
+would be how fast each one of them is. I remember Leafpad felt faster than
+Mousepad in the past and I was expecting the same to be true when comparing
+L3afpad and the newest Mousepad release. Recent releases of Mousepad have also
+added a lot of additional functionality, such as support for tabs, syntax
+highlighting and theme support, so I thought any difference between them could
+only have increased in favour of L3afpad as Mousepad probably got heavier due
+to these additions.</p>
+<p>Don&rsquo;t get me wrong, both apps are really fast, but there is probably a
+difference between &ldquo;almost instant&rdquo; and &ldquo;really fast&rdquo; and something was itching
+me to find it.</p>
+<p>So, I decided to do a small experiment. I would launch each application a few
+times and record how much time it took to start. I could do that by making a
+recording of my screen at the same time.</p>
+<h2 id="methodology">Methodology</h2>
+<p>All measurements were conducted on my laptop, which is the only PC I have with
+me right now, as I&rsquo;m away from home. It is a somewhat fast system, with a
+4 thread/8 core i7-1165G7 @ 2.80GHz, 32GB of RAM and a 1TB NVMe drive. Running
+the same experiment on a slower system would probably increase times and
+augment any differences, but there shouldn&rsquo;t be any confusion as to which one
+is faster, if indeed one of them is. An advantage on using a fast system for
+my little experiment, is that dedicating one core (or part of it) for doing
+the screen recording, shouldn&rsquo;t affect the results much, if at all.</p>
+<p>The way it went on is this: I started ffmpeg recording part of my screen, right
+at the center, where applications would launch. I didn&rsquo;t need to record the
+whole screen, as that would strain my CPU more. I wanted to be sure that I
+would be able to detect even subtle differences, so I ran the recording at 240
+fps. I then opened a terminal and launched each app from there. I did that five
+times for each application as I didn&rsquo;t want my results to be affected by any
+scheduling hickup with my CPU or any other temporary issue. I may get one
+outlier, but most measurements should be tightly packed.</p>
+<p>I then opened the recorded video in <a href="https://avidemux.sourceforge.net/">avidemux</a>
+and stepped through it frame by frame. With such a high framerate, each frame
+was offset from the previous one roughly by 0.004 seconds. So, that was the
+granularity of our results, meaning that we couldn&rsquo;t detect differences smaller
+than that, but that would be more than enough, nobody can feel differences
+that short. I noted the timestamp of the last frame that my cursor was at
+the end of the command line (just before pressing the Enter key) as well
+as the timestamp of the first frame that the application would launch and
+all graphical elements would be visible and ready for interaction, including
+window manager controls and the application&rsquo;s widgets themselves.</p>
+<h2 id="mousepad-vs-l3afpad-startup-times">Mousepad vs L3afpad startup times</h2>
+<p>I then calculated the difference between the two times, which would be my
+startup time for each app and plotted them using a boxplot in
+<a href="https://www.r-project.org/">R</a>. What I got was this:</p>
+<p><img src="l3afpad-vs-mousepad.png" alt="l3afpad vs mousepad. Mousepad wins!"></p>
+<p>That was a surprise! I wasn&rsquo;t expecting these results at all! My own
+preconceptions made me think that L3afpad would have been faster, or at the
+worst case, the difference wouldn&rsquo;t be significant. After all, Mousepad has so
+many more features as I noted earlier. But the difference is significant, in
+favour of Mousepad! Even if the difference is only about a hundredth of a
+second. But it didn&rsquo;t feel like that when I was just starting them up without
+actually doing any measurements. It was either that L3afpad felt just a tiny
+bit faster or that I couldn&rsquo;t tell the difference. I was wrong!</p>
+<h2 id="extending-the-experiment">Extending the experiment</h2>
+<p>So, that got me thinking. What else do I have figured out wrong due to my
+preconceptions? Geany, even if really fast, feels a bit slower to start than
+L3afpad or Mousepad. Is that true, or just my idea too? What about GTK2 vs
+GTK3? I think that GTK3 made everything a bit slower, but is that really so?
+What about launching a Qt app in a GTK3 environment, would that have a
+significant overhead?</p>
+<p>My major focus would of course be GTK3 apps, since Xfce uses that, so I picked
+a few of them from the Salix repositories and added a few more made with other
+toolkits for good measure. The complete list of GUI editors I tried is this:</p>
+<ul>
+<li>xnedit 1.4.1 (Motif)</li>
+<li>medit 1.2.0 (GTK2)</li>
+<li>leafpad 0.8.18.1 (GTK2)</li>
+<li>gvim 9.0.1667 (GTK3)</li>
+<li>pluma 1.26.0 (GTK3)</li>
+<li>gedit 42.0 (GTK3)</li>
+<li>mousepad 0.5.10 (GTK3)</li>
+<li>l3afpad 0.8.18.1.11 (GTK3)</li>
+<li>geany 1.38 (GTK3)</li>
+<li>featherpad 1.2.0 (Qt5)</li>
+</ul>
+<p>And here are the results:</p>
+<p><img src="gui-editors.png" alt="GUI editors startup time"></p>
+<p>There are some very interesting results here!</p>
+<p>It&rsquo;s amazing how much faster xnedit is, compared to everything else! It blows
+everything else away and the difference is definitely perceptible. Launching
+xnedit feels (and is) almost instant. Sure, Motif is an older toolkit and you
+may have expected it to be somewhat faster, but xnedit is loaded with features.
+I wasn&rsquo;t expecting such a huge difference. If you don&rsquo;t mind the old-school
+looks, this is the editor to use if you care about speed. It would certainly be
+ideal for older systems, but again, you can feel the difference in speed with
+newer systems too.</p>
+<p>Both GTK2 apps, Medit and Leafpad, are faster to load than almost all GTK3
+apps, even in a GTK3 based environment like Xfce 4.18. Especially, the
+difference between Leafpad and L3afpad is huge, and the latter is nothing more
+than a direct port of the former to GTK3, they should be directly comparable.
+Porting it to GTK3 made it a lot slower.</p>
+<p>Of the GTK3 apps, Gvim is the fastest one. I was expecting that. In most cases
+it&rsquo;s almost as fast as the two GTK2 apps. And it is certainly the editor with
+the most features. It&rsquo;s vim after all. If you&rsquo;re a vim user, Gvim is the easy
+choice. But I understand that not everyone likes vim, so it can&rsquo;t be the
+default editor in Salix anyway.</p>
+<p>And then there&rsquo;s another surprise! Both Pluma and Gedit are faster than
+Mousepad and L3afpad! I wasn&rsquo;t expecting this either. They both have a lot
+more features than L3afpad, while the newer Mousepad releases are probably
+on par. Gedit&rsquo;s interface has followed recent developments in GNOME and now
+looks completely out of place in Xfce though. If you like that, I guess it&rsquo;s
+OK. But Pluma, which comes from the MATE project, fits right in.</p>
+<p>Geany is the slowest of all GTK3 apps, but I was expecting that too. I mostly
+added it to the comparison to serve as a high anchor. Nothing should be slower
+that Geany, with all the features it has and nothing really isn&rsquo;t. I don&rsquo;t know
+if it can be considered just a text editor, it&rsquo;s mostly a lightweight IDE, if
+anything, and that is the reason it is included as a default app in Salix. That
+is not going to change.</p>
+<p>And then comes the last surprise! Featherpad, the only Qt5 app in the list is
+faster than both Mousepad and L3afpad. I had expected launching a Qt5 app in
+a GTK3 environment to take some toll, but it seems that it hasn&rsquo;t. It&rsquo;s just
+as fast as the fastest GTK3 apps in the list (well, except Gvim).</p>
+<h2 id="loading-files">Loading files</h2>
+<p>And if that&rsquo;s not enough testing and results, I decided to go even further.
+Why not try all these editors all over again, this time loading some text
+files instead of a blank document.</p>
+<p>So, I chose two files, a small one and a somewhat big one. The small file
+was the SLKBUILD file for the mozilla-firefox package in our repositories. Its
+size is exactly 3442 bytes. The big one was the <code>/var/slapt-get/package_data</code>
+file that holds all package data information for our package manager,
+slapt-get. Its size is about 8.5 MB. To make matters a bit worse, there are
+some encoding errors in this file, which will probably give some trouble to
+some editors.</p>
+<p>Here is what I got for the small file:</p>
+<p><img src="gui-editors-small-file.png" alt="GUI editors loading a small file"></p>
+<p>Hah! Leafpad and L3afpad are so much faster than they were before! They are
+both a lot faster in loading an existing file than starting with a blank
+document! Leafpad is now the fastest editor and L3afpad the 3rd fastest.
+L3afpad is by far the fastest editor among the GTK3 ones.
+So, it turns out I wasn&rsquo;t that crazy when I felt that L3afpad (and
+Leafpad) were actually faster than everything else! And the difference is
+about a tenth of a second, you can definitely feel that.</p>
+<p>Xnedit is still very fast, the fastest one after Leafpad and I&rsquo;m still very
+impressed! It is also a bit faster in loading an existing file, instead of
+starting a new one, but the difference is not as pronounced as with the
+L*afpads.</p>
+<p>Medit is also fast and Geany is still the slowest one, but with both there are
+virtually no differences between loading a small file or starting with a blank
+one.</p>
+<p>All other editors have no significant differences between them and they are a
+tiny bit slower to load a small file than starting with a blank.</p>
+<p>So, what about loading the big file? Here we go:</p>
+<p><img src="gui-editors-big-file.png" alt="GUI editors loading a big file"></p>
+<p>What happened here? Both Pluma and Gedit are terribly slow compared to
+everything else. They both show a progressbar while parsing the entire file
+and they take several seconds to finish. You are not able to start editing
+until they are done.</p>
+<p>Since they are so slow, I removed them and plotted everything else to be
+able to see what&rsquo;s going on with better detail:</p>
+<p><img src="gui-editors-no-pluma-gedit-big-file.png" alt="GUI editors except pluma and gedit, loading a big file"></p>
+<p>The L*afpads are the fastest! All editors are slower in loading the big file
+than the smaller one. Xnedit especially takes a toll here. I&rsquo;m thinking that
+this may be due to the encoding errors that the big file has. Featherpad is
+also a lot slower than it was, it is now the 3rd slowest, after Pluma and
+Gedit.</p>
+<p>The pleasant surprise comes from Geany. It is now the 3rd fastest editor to open
+the big file, right after the L*afpads. It&rsquo;s looking like the L3afpad + Geany
+combination for a simple editor and lightweight IDE/more complex editor,
+respectively, is not that bad after all!</p>
+<h2 id="terminal-editors">Terminal editors</h2>
+<p>You think that was enough, right? Well, no. Now I just had to do the same for
+terminal editors. They all feel faster than the GUI editors, but could I be
+wrong again? And are there any differences between them?</p>
+<p>So, I run my experiment a few more times with these terminal editors:</p>
+<ul>
+<li>nano 2.6.0</li>
+<li>joe 4.6</li>
+<li>mcedit 4.8.27 (from the mc package)</li>
+<li>micro 2.0.10</li>
+<li>nvi 1.81.6</li>
+<li>vim 9.0.1667</li>
+<li>neovim 0.7.2</li>
+</ul>
+<p>Terminal editors is probably the only app category for which we break the
+&ldquo;one application per task&rdquo; rule for our default installation. They are very
+small in size after all. And you absolutely have to include a vi-like editor,
+so in 15.0 we have neovim, which is very powerful. But not everyone likes
+vi-like editors, so we also include nano. And then there is also mcedit, which
+is bundled with the mc package.</p>
+<p>There are a lot more editors I could have included here (same with the GUI
+editors of course), like perhaps elvis, but I only wanted to test editors
+that support UTF-8 and elvis doesn&rsquo;t.</p>
+<p>Here are the results for starting with a blank document:</p>
+<p><img src="terminal-editors.png" alt="Terminal editors startup"></p>
+<p>Impressive! Most editors start instantly! As in after a single frame of the
+captured video, the editor is ready and waiting, that is within 0.004 seconds!
+The only exceptions are micro and neovim. I&rsquo;m not sure why neovim is slower
+than vim in this context, they are comparable in features and neovim is
+supposed to have removed cruft from the vim codebase. Could it be the
+respective default configurations? I don&rsquo;t think they are that different.
+Anyway, it&rsquo;s not that micro and neovim are too slow, they only take about 0.02
+seconds to start, you can probably never feel that difference.</p>
+<p>So, what about opening our small file?</p>
+<p><img src="terminal-editors-small-file.png" alt="Terminal editors loading a small file"></p>
+<p>Nano, joe, nvi and vim are instant with this one too. Neovim and micro are
+still slower than the rest, but they are only a tiny bit slower than with
+the blank document. On the other hand, mcedit is now as slow (or should I
+say &ldquo;as not incredibly fast&rdquo;) as neovim and micro.</p>
+<p>And what about opening the big file?</p>
+<p><img src="terminal-editors-big-file.png" alt="Terminal editors loading a big file"></p>
+<p>Things change a lot! Opening the file is still perceptibly almost instant in
+most cases, but it&rsquo;s not within a single frame for any editor. The fastest
+editor is now mcedit! It doesn&rsquo;t look like it needed more time opening the big
+file compared to the small file. Joe is still very fast and micro is now 3rd
+faster! Vim is now slower than neovim taking almost double the time neovim
+does. And nvi is by far the slowest, you can almost tell the difference with
+this one.</p>
+<h2 id="all-together">All together</h2>
+<p>And to put everything into perspective, here is a graph with all terminal
+and GUI editors together, when opening a blank document:</p>
+<p><img src="all.png" alt="All editors startup"></p>
+<p>When opening the small file:</p>
+<p><img src="all-small-file.png" alt="All editors loading a small file"></p>
+<p>When opening the big file:</p>
+<p><img src="all-big-file.png" alt="All editors loading a big file"></p>
+<p>And same thing, opening the big file, without Pluma and Gedit, which are
+too slow to compare with everything else:</p>
+<p><img src="all-no-pluma-gedit-big-file.png" alt="All editors except pluma and gedit, loading a big file"></p>
+<p>It is pretty clear that the terminal editors are a lot faster than the GUI
+ones. The only GUI editors that come close are the two L*afpads and Xnedit,
+especially when opening an existing file.</p>
+<p>Of course all these experiments and measurements don&rsquo;t say anything about what
+actual editing feels like. For example, I know for certain than doing a search
+and replace in vim/gvim is very fast, but it might take ages with the
+L*afpads, especially if you&rsquo;re working on a big file.</p>
+<p>But the use case for a simple editor is that you need something for quick
+editing, no syntax highlighting or anything like that, or to keep some simple
+notes. For more complex things, you would turn to Geany. Or if you like vi-like
+editors to one of those, but again, I understand that&rsquo;s not for everyone.</p>
+<p>So, where does that leave us? Ultimately, I think we made the right choice with
+going for L3afpad and Geany. Geany is powerful and full of features while also
+lightweight. And L3afpad is fast for the simple use cases of note taking and
+simple editing it is intended for. One thing to consider would be its
+development status. If in the future it seems that it is completely abandoned and major bugs
+appear we will probably switch to Mousepad or Pluma.</p>
+
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/packages/">packages</a>
+          <a href="/tags/default-apps/">default apps</a>
+          <a href="/tags/bechmarks/">bechmarks</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/just-a-little-teaser/">
+            <span class="next-text nav-default">Just a Little Teaser</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div name="mastodon" style="display: none;"><a rel="me" href="https://fosstodon.org/@salix">Mastodon</a></div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2023
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

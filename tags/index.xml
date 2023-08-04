@@ -6,7 +6,34 @@
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Feb 2022 14:49:37 +0200</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bechmarks</title>
+      <link>https://blog.salixos.org/tags/bechmarks/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/bechmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>default apps</title>
+      <link>https://blog.salixos.org/tags/default-apps/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/default-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packages</title>
+      <link>https://blog.salixos.org/tags/packages/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/packages/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>salix-next</title>
       <link>https://blog.salixos.org/tags/salix-next/</link>
@@ -44,29 +71,11 @@
     </item>
     
     <item>
-      <title>default apps</title>
-      <link>https://blog.salixos.org/tags/default-apps/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/default-apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GDM</title>
       <link>https://blog.salixos.org/tags/gdm/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/gdm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>packages</title>
-      <link>https://blog.salixos.org/tags/packages/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/packages/</guid>
       <description></description>
     </item>
     
@@ -175,15 +184,6 @@
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/shadow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pelican</title>
-      <link>https://blog.salixos.org/tags/pelican/</link>
-      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/pelican/</guid>
       <description></description>
     </item>
     
