@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bechmarks on The Salix Blog</title>
-    <link>https://blog.salixos.org/tags/bechmarks/</link>
-    <description>Recent content in bechmarks on The Salix Blog</description>
+    <title>benchmarks on The Salix Blog</title>
+    <link>https://blog.salixos.org/tags/benchmarks/</link>
+    <description>Recent content in benchmarks on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/bechmarks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/benchmarks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Choosing the default text editor</title>
       <link>https://blog.salixos.org/post/choosing-the-default-text-editor/</link>
