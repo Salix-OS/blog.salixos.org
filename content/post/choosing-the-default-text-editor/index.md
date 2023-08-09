@@ -1,7 +1,7 @@
 ---
 title: "Choosing the default text editor"
 date: 2023-08-04
-tags: ["packages", "default apps", "bechmarks"]
+tags: ["packages", "default apps", "benchmarks"]
 author: "George Vlahavas"
 
 autoCollapseToc: true
