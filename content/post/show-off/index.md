@@ -196,7 +196,7 @@ include my Salix logo patch that I had submitted as a pull request. Since this
 package would be in our main repositories, it would take precedence over the
 original one that is included in the Slackware repositories.
 
-And that's how, finally, if you have and updated system and install neofetch,
+And that's how, finally, if you have an updated system and install neofetch,
 you now get this instead:
 
 ![neofetch identifying as Salix](neofetch-salix.png)
