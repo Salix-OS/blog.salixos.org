@@ -6,7 +6,18 @@
     <description>Recent content in packages on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Show Off</title>
+      <link>https://blog.salixos.org/post/show-off/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/show-off/</guid>
+      <description>Neofetch is a command line tool that shows some information about the running system. It is not very detailed information and it is not a very useful tool, but it is fancy.
+Here&amp;rsquo;s a quote of its description from its homepage:
+The overall purpose of Neofetch is to be used in screen-shots of your system. Neofetch shows the information other people want to see. There are other tools available for proper system statistic/diagnostics.</description>
+    </item>
+    
     <item>
       <title>Choosing the default text editor</title>
       <link>https://blog.salixos.org/post/choosing-the-default-text-editor/</link>
