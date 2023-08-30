@@ -12,7 +12,7 @@ still lot's of things to do, but there will be an alpha release soon
 
 *Really long answer:*
 
-It has been almost two weeks now that Slackare 15.0 has been released
+It has been almost two weeks now that Slackware 15.0 has been released
 (yay!) and there are now regular inquiries on IRC and in the forums
 concerning the release of Salix 15.0.
 
