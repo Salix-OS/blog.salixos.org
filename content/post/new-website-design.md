@@ -38,7 +38,7 @@ Pelican created was simple HTML content. No database was needed to
 run in the background and there was no PHP content anywhere. Nice
 and simple. The fact that the content was plain HTML, would mean
 that the website would be less prone to attacks. Also, the fact that
-[kernel.org](http://blog.getpelican.com/)
+[kernel.org](https://kernel.org/)
 also used Pelican for managing their website was very
 reassuring too. So, we took the Pelican theme that kernel.org was
 using, tweaked it a bit and that looked good and very close to what
