@@ -6,7 +6,17 @@
     <description>Recent content in website on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salix is on Gemini</title>
+      <link>https://blog.salixos.org/post/salix-on-gemini/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/salix-on-gemini/</guid>
+      <description>We now have our own capsule on Gemini!
+But what is Gemini and what is a capsule? Gemini is a lightweight, text-based protocol for sharing content on the internet. It&amp;rsquo;s designed to be simple and efficient. It&amp;rsquo;s similar to the http(s) protocol, but with many restrictions that limit its functionality. These restrictions were included in the Gemini protocol on purpose, so there&amp;rsquo;s no chance that the Geminispace (the collection of all Gemini pages) will ever become the mess that the modern web is.</description>
+    </item>
+    
     <item>
       <title>Spam in the Forums</title>
       <link>https://blog.salixos.org/post/spam-in-the-forums/</link>

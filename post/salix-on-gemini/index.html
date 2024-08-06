@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Salix is on Gemini - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" /><meta name="description" content="We now have our own capsule on Gemini!
+But what is Gemini and what is a capsule? Gemini is a lightweight, text-based protocol for sharing content on the internet. It&amp;rsquo;s designed to be simple and efficient. It&amp;rsquo;s similar to the http(s) protocol, but with many restrictions that limit its functionality. These restrictions were included in the Gemini protocol on purpose, so there&amp;rsquo;s no chance that the Geminispace (the collection of all Gemini pages) will ever become the mess that the modern web is." /><meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.111.3 with theme even" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/salix-on-gemini/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.ce647e693b48506466986bd585ce55f2fe27926f45bc33865a43a397d31ab86c.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Salix is on Gemini" />
+<meta property="og:description" content="We now have our own capsule on Gemini!
+But what is Gemini and what is a capsule? Gemini is a lightweight, text-based protocol for sharing content on the internet. It&rsquo;s designed to be simple and efficient. It&rsquo;s similar to the http(s) protocol, but with many restrictions that limit its functionality. These restrictions were included in the Gemini protocol on purpose, so there&rsquo;s no chance that the Geminispace (the collection of all Gemini pages) will ever become the mess that the modern web is." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/salix-on-gemini/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-08-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-06T00:00:00+00:00" />
+<meta property="og:image" content="/og_image.png"/><meta itemprop="name" content="Salix is on Gemini">
+<meta itemprop="description" content="We now have our own capsule on Gemini!
+But what is Gemini and what is a capsule? Gemini is a lightweight, text-based protocol for sharing content on the internet. It&rsquo;s designed to be simple and efficient. It&rsquo;s similar to the http(s) protocol, but with many restrictions that limit its functionality. These restrictions were included in the Gemini protocol on purpose, so there&rsquo;s no chance that the Geminispace (the collection of all Gemini pages) will ever become the mess that the modern web is."><meta itemprop="datePublished" content="2024-08-06T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-08-06T00:00:00+00:00" />
+<meta itemprop="wordCount" content="721">
+<meta itemprop="keywords" content="website," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Salix is on Gemini"/>
+<meta name="twitter:description" content="We now have our own capsule on Gemini!
+But what is Gemini and what is a capsule? Gemini is a lightweight, text-based protocol for sharing content on the internet. It&rsquo;s designed to be simple and efficient. It&rsquo;s similar to the http(s) protocol, but with many restrictions that limit its functionality. These restrictions were included in the Gemini protocol on purpose, so there&rsquo;s no chance that the Geminispace (the collection of all Gemini pages) will ever become the mess that the modern web is."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Salix is on Gemini</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2024-08-06 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>We now have our own <a href="gemini://salixos.org">capsule on Gemini</a>!</p>
+<p>But what is <a href="https://geminiprotocol.net/">Gemini</a> and what is a capsule? Gemini
+is a lightweight, text-based protocol for sharing content on the internet. It&rsquo;s
+designed to be simple and efficient. It&rsquo;s similar to the http(s) protocol, but
+with many restrictions that limit its functionality. These restrictions were
+included in the Gemini protocol on purpose, so there&rsquo;s no chance that the
+Geminispace (the collection of all Gemini pages) will ever become the mess that
+the modern web is. There&rsquo;s no way to run JavaScript on Gemini. There&rsquo;s no
+tracking on Gemini. And there are no annoying ads in Gemini.</p>
+<p>A capsule is simply what a page is called in Gemini. The equivalent to what a
+webpage is in the web.</p>
+<p>Gemini is relatively new, created only a few years ago. It&rsquo;s part of what&rsquo;s
+often referred to as &ldquo;the small internet&rdquo;. This term describes a collection of
+alternative, decentralized, and community-driven networks that operate outside
+of the mainstream internet.</p>
+<p>Gemini is text-only. It&rsquo;s possible to include images and videos, or any other
+type of file, but it&rsquo;s up to the client to decide what to do with them. If it
+will display them in place, like a web browser displays images, or if it will
+only show the text and provide links for images and videos so that users can
+download them individually to view them.</p>
+<p>There&rsquo;s also no page styling in Gemini. The author doesn&rsquo;t decide how the
+content will look, as it happens in the web. The author only provides the
+content, and the only one who gets to decide how that information is presented
+is the client application, which in most cases can be configured by the user.
+There are many terminal-based clients, but there are also graphical clients.</p>
+<p>Gemini is never going to be the next big thing. It&rsquo;s never going to replace the
+web; it&rsquo;s not meant to do that anyway. Gemini is never going to be supported by
+big corporations. It&rsquo;s never going to be supported by anyone who cares about
+things like user conversion and retention. And that&rsquo;s a good thing.</p>
+<p>The pace in Gemini is a lot slower than on the web. There are no constant
+updates, no endless scrolling, no instant gratification.</p>
+<p>All that aligns a lot with how we like to do things in Salix. We don&rsquo;t have a
+fancy website, because we don&rsquo;t want to. There&rsquo;s no JavaScript, no tracking, no
+attention-grabbing animations. Our main page is mostly text-based, with the
+absolute minimum of styling that we could get away with. We haven&rsquo;t updated its
+look since 2013. Salix is boring and stable. We don&rsquo;t move fast, and we don&rsquo;t
+like to break things. Our blog gets a few updates a year.</p>
+<p>It wasn&rsquo;t that hard to convert our current main page content to Gemini. We used
+a <a href="https://github.com/makew0rld/md2gemini">tool</a> to convert the content to the
+format required by Gemini. This tool is now abandoned by its developer, but it
+still works. It wasn&rsquo;t that hard to include all our blog content either. I have
+also set it up so that any new content that is added to the blog, like this
+article, can be easily mirrored to our capsule within seconds. It&rsquo;s all there
+under &ldquo;Posts&rdquo;. All scripts and content of our Gemini capsule can be found in
+the respective
+<a href="https://github.com/Salix-OS/gemini.salixos.org">Github project page</a>.</p>
+<p>Why do it now? Simply because I had some spare time, and it was a fun thing to
+do. If you look into the Git commit logs, you&rsquo;ll see that I started this about
+a year ago but never got to publish it until now.</p>
+<p>We already have a couple of Gemini clients (browsers) in our repositories. If
+you want a terminal-based client, you can use
+<a href="https://github.com/makew0rld/amfora">Amfora</a>. If you want a more
+feature-complete client, with the ability to display images inline and other
+cool features, you can use
+<a href="https://github.com/skyjake/lagrange">Lagrange</a>.
+In fact, I upgraded the Lagrange package
+in our repositories to the latest release earlier today. There are a few more
+clients available in
+<a href="https://flathub.org/">Flathub</a>
+that you can also try, and there are
+<a href="https://geminiprotocol.net/software/">many more</a>
+if you don&rsquo;t mind compiling from source.</p>
+<p>I would be very surprised if more than a handful of people accessed our Gemini
+capsule. And that&rsquo;s OK.</p>
+<p>Here&rsquo;s a screenshot of Lagrange, mostly with default configuration, showing our capsule:</p>
+<p><img src="lagrange.png" alt="The Lagrange Gemini client showing the salixos.org capsule" title="salixos.org capsule on Lagrange"></p>
+
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/website/">website</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/show-off/">
+            <span class="next-text nav-default">Show Off</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div name="mastodon" style="display: none;"><a rel="me" href="https://fosstodon.org/@salix">Mastodon</a></div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2024
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
