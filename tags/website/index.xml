@@ -6,7 +6,18 @@
     <description>Recent content in website on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Documentation Site</title>
+      <link>https://blog.salixos.org/post/new-docs-site/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/new-docs-site/</guid>
+      <description>I&amp;rsquo;ve been wanting to do this for a long time. I first started working on it five years ago!
+A bit of history first… When we were trying to build the Salix presence on the web, we knew we had to have at least three things:
+A main landing page A support forum A documentation project For the forum, we had settled on phpbb, which seemed to be the most feature-rich option.</description>
+    </item>
+    
     <item>
       <title>Salix is on Gemini</title>
       <link>https://blog.salixos.org/post/salix-on-gemini/</link>
