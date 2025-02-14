@@ -16,7 +16,7 @@ build:
 publish: build
 	cd public && \
 	git add --all && \
-	git commit -m "Publish on `date`" && \
+	git commit -m "Publish on `LANG=C.utf8 date`" && \
 	git push -u origin master
 
 serve:
