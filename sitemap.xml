@@ -2,35 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.salixos.org/post/new-docs-site/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <loc>https://blog.salixos.org/tags/guide/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://blog.salixos.org/post/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://blog.salixos.org/tags/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://blog.salixos.org/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/post/startup-guide-moves-into-the-docs/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://blog.salixos.org/tags/website/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/post/new-docs-site/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -200,13 +214,6 @@
   <url>
     <loc>https://blog.salixos.org/post/mate-is-around-the-corner/</loc>
     <lastmod>2014-03-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/guide/</loc>
-    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

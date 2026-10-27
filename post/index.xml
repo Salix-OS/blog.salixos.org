@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Startup Guide Moves into the Documentation</title>
+      <link>https://blog.salixos.org/post/startup-guide-moves-into-the-docs/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/startup-guide-moves-into-the-docs/</guid>
+      <description>The Salix Startup Guide is now part of our documentation site. You can find it at docs.salixos.org/guide, as the first section in the documentation menu.
+A bit of history first. Back in 2014, we had to rewrite the guide in a new format, because Publican, the tool we were using before, would not work on Salix anymore. I wrote about it in a previous blog post. We switched to txt2tags, which could produce HTML, as well as LaTeX for a PDF version, from the same source files.</description>
+    </item>
+    
     <item>
       <title>New Documentation Site</title>
       <link>https://blog.salixos.org/post/new-docs-site/</link>

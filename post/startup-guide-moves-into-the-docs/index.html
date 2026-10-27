@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The Startup Guide Moves into the Documentation - The Salix Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="George Vlahavas" /><meta name="description" content="The Salix Startup Guide is now part of our documentation site. You can find it at docs.salixos.org/guide, as the first section in the documentation menu.
+A bit of history first. Back in 2014, we had to rewrite the guide in a new format, because Publican, the tool we were using before, would not work on Salix anymore. I wrote about it in a previous blog post. We switched to txt2tags, which could produce HTML, as well as LaTeX for a PDF version, from the same source files." /><meta name="keywords" content="Salix, SalixOS, linux, GNU/Linux, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.111.3 with theme even" />
+
+
+<link rel="canonical" href="https://blog.salixos.org/post/startup-guide-moves-into-the-docs/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.ce647e693b48506466986bd585ce55f2fe27926f45bc33865a43a397d31ab86c.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="The Startup Guide Moves into the Documentation" />
+<meta property="og:description" content="The Salix Startup Guide is now part of our documentation site. You can find it at docs.salixos.org/guide, as the first section in the documentation menu.
+A bit of history first. Back in 2014, we had to rewrite the guide in a new format, because Publican, the tool we were using before, would not work on Salix anymore. I wrote about it in a previous blog post. We switched to txt2tags, which could produce HTML, as well as LaTeX for a PDF version, from the same source files." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.salixos.org/post/startup-guide-moves-into-the-docs/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2026-10-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-10-27T00:00:00+00:00" />
+<meta property="og:image" content="/og_image.png"/><meta itemprop="name" content="The Startup Guide Moves into the Documentation">
+<meta itemprop="description" content="The Salix Startup Guide is now part of our documentation site. You can find it at docs.salixos.org/guide, as the first section in the documentation menu.
+A bit of history first. Back in 2014, we had to rewrite the guide in a new format, because Publican, the tool we were using before, would not work on Salix anymore. I wrote about it in a previous blog post. We switched to txt2tags, which could produce HTML, as well as LaTeX for a PDF version, from the same source files."><meta itemprop="datePublished" content="2026-10-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2026-10-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="951">
+<meta itemprop="keywords" content="website,guide," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Startup Guide Moves into the Documentation"/>
+<meta name="twitter:description" content="The Salix Startup Guide is now part of our documentation site. You can find it at docs.salixos.org/guide, as the first section in the documentation menu.
+A bit of history first. Back in 2014, we had to rewrite the guide in a new format, because Publican, the tool we were using before, would not work on Salix anymore. I wrote about it in a previous blog post. We switched to txt2tags, which could produce HTML, as well as LaTeX for a PDF version, from the same source files."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">The Salix Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="https://salixos.org">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">The Salix Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="https://salixos.org">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">The Startup Guide Moves into the Documentation</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2026-10-27 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>The Salix Startup Guide is now part of our documentation site. You can find it
+at <a href="https://docs.salixos.org/guide/">docs.salixos.org/guide</a>, as the first
+section in the documentation menu.</p>
+<p>A bit of history first. Back in 2014, we had to rewrite the guide in a new
+format, because Publican, the tool we were using before, would not work on
+Salix anymore. I wrote about it in a
+<a href="/post/new-startup-guide/">previous blog post</a>. We switched to
+<a href="https://txt2tags.org/">txt2tags</a>, which could produce HTML, as well as LaTeX
+for a PDF version, from the same source files. The HTML output was then split
+into separate pages with <a href="https://www.msweet.org/htmldoc/">htmldoc</a>, and a long
+list of <code>sed</code> commands was used to add the styling, the navigation links and
+the note and warning boxes. The ebook versions, EPUB and MOBI, were created
+with <a href="https://calibre-ebook.com/">Calibre</a>, from the same HTML output.</p>
+<p>This setup served us for more than ten years. But a few things about it have
+been bothering me for a while.</p>
+<p>The first is that we had two separate documentation projects. The guide had
+its own git repository, its own build process, its own way of publishing and
+its own look. And then there was the
+<a href="/post/new-docs-site/">documentation site</a>, which was written in Markdown with
+Hugo, just like this blog. Salix is a small project with a small number of
+people working on it, and maintaining two of everything is a lot of overhead
+for us.</p>
+<p>The second is the toolchain itself. txt2tags and htmldoc are not widely used
+anymore, and the post-processing with <code>sed</code> was fragile. Small changes in the
+output of either tool could break the formatting. This is not theoretical by
+the way. Upgrading txt2tags to the latest version already broke our workflow
+and we chose to stay with an older txt2tags version. Anyone who wanted to fix a
+typo in the guide would first have to figure out how all of that worked if they
+wanted to preview their changes. In the documentation site, every page has an
+edit button that takes you to the page&rsquo;s Markdown source on GitHub, where you
+can make your changes right in your browser. Now the guide works the same way.</p>
+<p>The third is that the two projects were covering some of the same topics,
+without knowing about each other. For example, both had instructions for
+installing Salix from a USB stick, and these were not always in sync. Users had
+to know that both sites existed, and search on the documentation site could not
+find anything in the guide.</p>
+<p>There was one thing that made me hesitate though. The guide is meant to be read
+from start to finish. It takes you from downloading Salix, to installing it, to
+managing software and configuring your system, in that order. The rest of the
+documentation is a collection of separate pages that you look up when you need
+them. I didn&rsquo;t want the guide to become just a few more pages in the menu.</p>
+<p>So, the guide has its own section and its chapters are listed in order. On the
+guide&rsquo;s pages only, there are arrows at the top of the page that take you to
+the previous or next chapter, and each chapter shows which chapter it is and
+how many there are in total. If you prefer to read the whole guide in one go,
+the print button on the guide&rsquo;s main page shows all chapters on a single page.</p>
+<p>The PDF, EPUB and MOBI versions of the guide are gone. We published them when
+the guide was first released, but they haven&rsquo;t been updated for a few years,
+because updating them was difficult and I&rsquo;m not sure anyone cared. After
+removing them, certainly nobody complained. The single page view of the
+guide covers most of what they were used for, and your browser can save it
+as a PDF if you need one.</p>
+<p>The old address, guide.salixos.org, now redirects to the guide&rsquo;s new location.
+This includes links to individual pages of the old guide, which take you to the
+start of the new one. The redirect will stay in place for a few years, after
+which the guide.salixos.org subdomain will be retired. If you have bookmarked
+the old guide, you should update your bookmark to
+<a href="https://docs.salixos.org/guide/">docs.salixos.org/guide</a>.</p>
+<p>Merging the two meant going through the content of both, and some things were
+moved around in the process:</p>
+<ul>
+<li>The duplicate page about installing from a USB stick was removed from the
+documentation, since the guide already covers it.</li>
+<li>The detailed reference on partitioning with <em>cfdisk</em> was moved out of the
+guide and into its own
+<a href="https://docs.salixos.org/user/partitioning-with-cfdisk/">page in the user documentation</a>.
+The guide still includes a short walkthrough for partitioning during
+installation. The new page now also explains how NVMe drives and SD cards
+are named, which was missing.</li>
+<li>Sections of the guide now link to related FAQ entries and documentation
+pages, and some FAQ entries link back to the guide.</li>
+<li>Links to our old wiki and forum addresses were updated, and some obsolete
+content was removed.</li>
+<li>Some more minor tidying up.</li>
+</ul>
+<p>When we moved from MediaWiki to the current documentation site, converting the
+content was the hardest part. This time it was a lot easier, because txt2tags
+can output Markdown directly. A small script took care of the rest, like
+converting the note and warning boxes and fixing links between chapters, and
+only a few things needed fixing by hand afterwards.</p>
+<p>If you find anything in the guide that needs updating, you can use the edit
+button on any page, or send your changes to the
+<a href="https://salixos.org/mailinglists.html">mailing list</a>, just like with the rest
+of the documentation.</p>
+<p>I hope that this move will make it easier for everyone to find the information
+they&rsquo;re looking for in our documentation.</p>
+
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/website/">website</a>
+          <a href="/tags/guide/">guide</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/new-docs-site/">
+            <span class="next-text nav-default">New Documentation Site</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gapan@salixos.org" class="iconfont icon-email" title="email"></a>
+  <a href="https://blog.salixos.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div name="mastodon" style="display: none;"><a rel="me" href="https://fosstodon.org/@salix">Mastodon</a></div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2013 - 
+    2026
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Salix GNU/Linux</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

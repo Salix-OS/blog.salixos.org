@@ -6,11 +6,20 @@
     <description>Recent content in Tags on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>guide</title>
+      <link>https://blog.salixos.org/tags/guide/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/tags/guide/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>website</title>
       <link>https://blog.salixos.org/tags/website/</link>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/website/</guid>
       <description></description>
@@ -121,15 +130,6 @@
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.salixos.org/tags/mate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>guide</title>
-      <link>https://blog.salixos.org/tags/guide/</link>
-      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.salixos.org/tags/guide/</guid>
       <description></description>
     </item>
     
