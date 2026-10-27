@@ -38,10 +38,10 @@ anymore, and the post-processing with `sed` was fragile. Small changes in the
 output of either tool could break the formatting. This is not theoretical by
 the way. Upgrading txt2tags to the latest version already broke our workflow
 and we chose to stay with an older txt2tags version. Anyone who wanted to fix a
-typo in the guide would first have to figure out how all of that worked. In the
-documentation site, every page has an edit button that takes you to the page's
-Markdown source on GitHub, where you can make your changes right in your
-browser. Now the guide works the same way.
+typo in the guide would first have to figure out how all of that worked if they
+wanted to preview their changes. In the documentation site, every page has an
+edit button that takes you to the page's Markdown source on GitHub, where you
+can make your changes right in your browser. Now the guide works the same way.
 
 The third is that the two projects were covering some of the same topics,
 without knowing about each other. For example, both had instructions for
@@ -63,9 +63,10 @@ the print button on the guide's main page shows all chapters on a single page.
 
 The PDF, EPUB and MOBI versions of the guide are gone. We published them when
 the guide was first released, but they haven't been updated for a few years,
-because updating them was difficult. The single page view of the guide covers
-most of what they were used for, and your browser can save it as a PDF if you
-need one.
+because updating them was difficult and I'm not sure anyone cared. After
+removing them, certainly nobody complained. The single page view of the
+guide covers most of what they were used for, and your browser can save it
+as a PDF if you need one.
 
 The old address, guide.salixos.org, now redirects to the guide's new location.
 This includes links to individual pages of the old guide, which take you to the
