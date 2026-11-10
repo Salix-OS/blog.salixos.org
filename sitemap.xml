@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.salixos.org/post/new-website-again/</loc>
+    <lastmod>2026-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/post/</loc>
+    <lastmod>2026-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/</loc>
+    <lastmod>2026-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/</loc>
+    <lastmod>2026-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.salixos.org/tags/website/</loc>
+    <lastmod>2026-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.salixos.org/tags/guide/</loc>
     <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,35 +44,7 @@
   </url>
   
   <url>
-    <loc>https://blog.salixos.org/post/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.salixos.org/post/startup-guide-moves-into-the-docs/</loc>
-    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.salixos.org/tags/website/</loc>
     <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -6,7 +6,18 @@
     <description>Recent content in website on The Salix Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.salixos.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Website, Again</title>
+      <link>https://blog.salixos.org/post/new-website-again/</link>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.salixos.org/post/new-website-again/</guid>
+      <description>Well, it&amp;rsquo;s been 13 years since the last update. It was probably time for another.
+First, for the sake of posterity, here&amp;rsquo;s a screenshot of the old design:
+As you can see, the new design is not really very different. Of course, this is deliberate. The old website had some interesting advantages that I wanted to keep no matter what. First, it was really small and loaded blazingly fast. Second, it didn&amp;rsquo;t use any JavaScript.</description>
+    </item>
+    
     <item>
       <title>The Startup Guide Moves into the Documentation</title>
       <link>https://blog.salixos.org/post/startup-guide-moves-into-the-docs/</link>
